@@ -8,7 +8,8 @@ public class OneAway {
         System.out.println(s2.compareToIgnoreCase(s1));
     }
 
-   private static boolean isOneAway(String s1, String s2) {
+    // Adding test comment by Rajeev
+    private static boolean isOneAway(String s1, String s2) {
         boolean flag = false;
         if (s1.length() != s2.length()) {
             if (s1.length() > s2.length() && s2.equalsIgnoreCase(s1.substring(0, s2.length()))) {
