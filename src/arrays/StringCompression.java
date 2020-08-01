@@ -5,22 +5,21 @@ public class StringCompression {
         System.out.println(compressedString("aabcccccaaa"));
     }
 
-    private static String compressedString(String s) {
-        char[] c = s.toCharArray();
+    private static String compressedString(String str) {
         StringBuilder sb = new StringBuilder();
         int count = 0;
-        for (int i = 0; i < c.length; i++) {
-            char current = c[i];
+        for (int i = 0; i < str.length(); i++) {
+            char current = str.charAt(i);
             count = 1;
-            while (i < c.length - 1 && current == c[i + 1]) {
+            while (i < str.length() - 1 && current == str.charAt(i + 1)) {
                 count++;
                 i++;
             }
-            sb.append(c[i]).append(count);
+            sb.append(current).append(count);
         }
 
-        if (sb.length() > s.length()) {
-            return s;
+        if (sb.length() > str.length()) {
+            return str;
         } else {
             return sb.toString();
         }
