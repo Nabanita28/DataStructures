@@ -9,17 +9,17 @@ public class StringCompression {
         char[] c = s.toCharArray();
         StringBuilder sb = new StringBuilder();
         int count = 0;
-        for(int i = 0; i<c.length-1; i++) {
+        for (int i = 0; i < c.length; i++) {
             char current = c[i];
             count = 1;
-                while (i<c.length-1 && current == c[i + 1]) {
-                    count++;
-                    i++;
-                }
-            sb.append(c[i]).append(count);
+            while (i < c.length - 1 && current == c[i + 1]) {
+                count++;
+                i++;
             }
+            sb.append(c[i]).append(count);
+        }
 
-        if(sb.length() > s.length()){
+        if (sb.length() > s.length()) {
             return s;
         } else {
             return sb.toString();

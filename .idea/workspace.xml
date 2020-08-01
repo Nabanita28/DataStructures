@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructtures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructtures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/BasicTreeFunctions$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/BasicTreeFunctions$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/BasicTreeFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/Recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/OneAway.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/OneAway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/PalindromePermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/PalindromePermutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/ReplaceWhitespaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/ReplaceWhitespaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/StringPermutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/StringPermutations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/UniqueString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/UniqueString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/StringCompression.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,11 +253,6 @@
           <url>file://$PROJECT_DIR$/src/arrays/RotateArray.java</url>
           <line>35</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/StringCompression.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/arrays/StringCompression.java</url>
