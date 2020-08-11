@@ -45,10 +45,39 @@ public class RainWaterBricks {
     }
 
     private static int[][] getPorousNeighbours(int row, int col) {
+
+
+   /*     int[][] neighbours  = new int[][]{
+                {row - 1, col - 1},
+                {row - 1, col},
+                {row - 1, col + 1}
+        };
+//        int[][] validNeighbours = (int[][]) Arrays.stream(neighbours).
+//                filter(neighbour -> wall[neighbour[0]][neighbour[1]] == 0 && neighbour[0]>=0 && neighbour[0]<wall.length && neighbour[1]>=0 && neighbour[1]<wall[0].length-1).toArray();
+
+        int[][] validNeighbours = (int[][]) Arrays.stream(neighbours)
+                                    .filter(
+                                            neighbour -> {
+                                                int rowPosition = neighbour[0];
+                                                int colPosition = neighbour[1];
+
+                                                int maxRowAllowed = wall.length - 1;
+                                                int maxColAllowed = wall[0].length - 1;
+
+                                                int neighborsBrickValue = wall[rowPosition][colPosition];
+
+                                                return rowPosition >= 0 && rowPosition < maxRowAllowed &&
+                                                        colPosition >= 0 && colPosition < maxColAllowed &&
+                                                        neighborsBrickValue == 0;
+                                            }).toArray();*/
+
+
         int[][] neighbours;
         if (row == 0) {
             return null;
         }
+
+        //if column value is the first value in the matrix
         if (col == 0) {
             neighbours = new int[][]{
                     {row - 1, col},
@@ -57,18 +86,19 @@ public class RainWaterBricks {
             return neighbours;
         }
 
+        //if column value is the last value in the matrix
         if (col == wall[0].length - 1) {
             neighbours = new int[][]{
                     {row - 1, col - 1},
                     {row - 1, col}};
             return neighbours;
         }
-
         neighbours = new int[][]{
                 {row - 1, col - 1},
                 {row - 1, col},
-                {row - 1, col + 1},
+                {row - 1, col + 1}
         };
+
         return neighbours;
     }
 }
