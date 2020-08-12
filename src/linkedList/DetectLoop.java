@@ -18,7 +18,7 @@ public class DetectLoop {
             return false;
         }
 
-
+// return the count of loop
     public static int countOfLoopDetected() {
 
         Node slowPointer = head;
