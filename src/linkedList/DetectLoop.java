@@ -8,12 +8,37 @@ public class DetectLoop {
 
             Node slowPointer = head;
             Node fastPointer = head;
-            while(fastPointer.next !=null  && fastPointer.next.next != null){
+            int count = 0;
+            while(fastPointer.next !=null && fastPointer.next.next != null){
                 slowPointer = slowPointer.next;
                 fastPointer = fastPointer.next.next;
                 if(fastPointer == slowPointer) return true;
+                count++;
             }
             return false;
+        }
+
+
+    public static int countOfLoopDetected() {
+
+        Node slowPointer = head;
+        Node fastPointer = head;
+        Node tempNode;
+        int count = 1;
+        while (fastPointer.next != null && fastPointer.next.next != null) {
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+            if (fastPointer == slowPointer) {
+                tempNode = slowPointer;
+                slowPointer = slowPointer.next;
+                while (slowPointer != tempNode) {
+                    count++;
+                    slowPointer = slowPointer.next;
+                }
+                return count;
+            }
+        }
+            return 0;
         }
 
         public static void main(String[] args) {
@@ -31,11 +56,10 @@ public class DetectLoop {
             thirdNode.next = fourthNode;
             fourthNode.next = fifthNode;
             fifthNode.next = sixthNode;
-            sixthNode.next = fourthNode;
+            sixthNode.next = thirdNode;
 
-            //LinkedList.printList(head);
-            System.out.println(isLoopDetected());
-
+            System.out.println("Loop detected -> " + isLoopDetected());
+            System.out.println("Loop count : " + countOfLoopDetected());
         }
     }
 
