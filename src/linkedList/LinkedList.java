@@ -4,16 +4,6 @@ public class LinkedList {
 
     static Node head;
 
-    static class Node {
-        int data;
-        Node next;
-
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
-
     static void add(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
@@ -38,8 +28,8 @@ public class LinkedList {
         return 1 + getLength(head.next);
     }
 
-    public static void printList(LinkedList list) {
-        Node n = list.head;
+    public static void printList(Node head) {
+        Node n = head;
         while (n != null) {
             System.out.print(n.data + " -> ");
             n = n.next;
@@ -137,7 +127,7 @@ public class LinkedList {
         list.add(7);*/
 
 
-        printList(list);
+        printList(head);
         //System.out.println("Length of list : " + findLength(list));
         System.out.println("Length of list : " + getLength(list.head));
         System.out.println(search(99));
