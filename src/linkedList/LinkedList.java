@@ -4,7 +4,7 @@ public class LinkedList {
 
     static Node head;
 
-    static void add(int data) {
+    static void add(String data) {
         Node newNode = new Node(data);
         newNode.next = head;
         head = newNode;
@@ -32,6 +32,15 @@ public class LinkedList {
         Node n = head;
         while (n != null) {
             System.out.print(n.data + " -> ");
+            n = n.next;
+        }
+        System.out.print("null\n");
+    }
+
+    public static void printDataInList(Node head) {
+        Node n = head;
+        while (n != null) {
+            System.out.print(n.input + " -> ");
             n = n.next;
         }
         System.out.print("null\n");
