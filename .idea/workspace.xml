@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/InfixToPostFix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/InfixToPostFix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,9 +81,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFSwithoutSibling">
+  <component name="RunManager" selected="Application.BFSLevelWise">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BFS" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BFSLevelWise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BFSLevelWise" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTreeFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BasicTreeFunctions" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.InorderTraversal" />
       <module name="DataStructtures" />
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BFSwithoutSibling" />
+        <item itemvalue="Application.BFSLevelWise" />
         <item itemvalue="Application.BFSSpiral" />
+        <item itemvalue="Application.BFSwithoutSibling" />
         <item itemvalue="Application.BFS" />
         <item itemvalue="Application.InorderTraversal" />
-        <item itemvalue="Application.BasicTreeFunctions" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +291,16 @@
           <url>file://$PROJECT_DIR$/src/linkedList/SwapNodes.java</url>
           <line>57</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BFSLevelWise.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BFSSpiral.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
