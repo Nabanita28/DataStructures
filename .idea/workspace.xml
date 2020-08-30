@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFSLevelWise">
+  <component name="RunManager" selected="Application.BSFDirectionChangeAfter2Levels">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BFS" />
       <module name="DataStructtures" />
@@ -134,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InorderTraversal" />
+    <configuration name="BSFDirectionChangeAfter2Levels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BSFDirectionChangeAfter2Levels" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSFDirectionChangeAfter2Levels" />
+        <item itemvalue="Application.BFSwithoutSibling" />
         <item itemvalue="Application.BFSLevelWise" />
         <item itemvalue="Application.BFSSpiral" />
-        <item itemvalue="Application.BFSwithoutSibling" />
         <item itemvalue="Application.BFS" />
-        <item itemvalue="Application.InorderTraversal" />
       </list>
     </recent_temporary>
   </component>
