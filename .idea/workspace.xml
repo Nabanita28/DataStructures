@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -82,9 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseBSF">
-    <configuration name="BFSLevelWise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BFSLevelWise" />
+  <component name="RunManager" selected="Application.LeftLeavesSum">
+    <configuration name="ChildrenSumProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.ChildrenSumProperty" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFSSpiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BFSSpiral" />
+    <configuration name="LeftLeavesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LeftLeavesSum" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFSwithoutSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BFSwithoutSibling" />
+    <configuration name="ParentNodesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.ParentNodesSum" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSFDirectionChangeAfter2Levels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BSFDirectionChangeAfter2Levels" />
+    <configuration name="SumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.SumTree" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseBSF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ReverseBSF" />
+    <configuration name="TreeSumAllNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.TreeSumAllNodes" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseBSF" />
-        <item itemvalue="Application.BSFDirectionChangeAfter2Levels" />
-        <item itemvalue="Application.BFSwithoutSibling" />
-        <item itemvalue="Application.BFSLevelWise" />
-        <item itemvalue="Application.BFSSpiral" />
+        <item itemvalue="Application.LeftLeavesSum" />
+        <item itemvalue="Application.ParentNodesSum" />
+        <item itemvalue="Application.TreeSumAllNodes" />
+        <item itemvalue="Application.SumTree" />
+        <item itemvalue="Application.ChildrenSumProperty" />
       </list>
     </recent_temporary>
   </component>
@@ -294,14 +296,19 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/BFSLevelWise.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/BFSSpiral.java</url>
           <line>20</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/TreeDepth.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/ChildrenSumProperty.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
@@ -313,5 +320,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructtures$ChildrenSumProperty.ic" NAME="ChildrenSumProperty Coverage Results" MODIFIED="1598879770460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tree.*</FILTER>
+    </SUITE>
   </component>
 </project>

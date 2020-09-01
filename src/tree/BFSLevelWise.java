@@ -21,6 +21,7 @@ public class BFSLevelWise {
         queue.add(separator);
 
         TreeNode current;
+        int separator_count = 1;
 
         while(!queue.isEmpty()){
 
@@ -28,8 +29,10 @@ public class BFSLevelWise {
 
             if(current == separator){
                 System.out.println();
-                if(!queue.isEmpty())
-                queue.add(separator);
+                if(!queue.isEmpty()) {
+                    queue.add(separator);
+                    separator_count++;
+                }
             }
             else {
                 System.out.print(current.key);
@@ -40,5 +43,7 @@ public class BFSLevelWise {
                     queue.add(current.right);
             }
         }
+
+        System.out.println("Depth of the tree: " + separator_count);
     }
 }
