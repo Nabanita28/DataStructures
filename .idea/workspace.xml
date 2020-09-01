@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,9 +83,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeftLeavesSum">
-    <configuration name="ChildrenSumProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ChildrenSumProperty" />
+  <component name="RunManager" selected="Application.LCAUsingParentPointer">
+    <configuration name="LCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LCA" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCAUsingParentPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LCAUsingParentPointer" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SumTree" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeSumAllNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.TreeSumAllNodes" />
       <module name="DataStructtures" />
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCAUsingParentPointer" />
+        <item itemvalue="Application.LCA" />
         <item itemvalue="Application.LeftLeavesSum" />
         <item itemvalue="Application.ParentNodesSum" />
         <item itemvalue="Application.TreeSumAllNodes" />
-        <item itemvalue="Application.SumTree" />
-        <item itemvalue="Application.ChildrenSumProperty" />
       </list>
     </recent_temporary>
   </component>
