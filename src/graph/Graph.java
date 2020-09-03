@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Graph {
 
-    private int v;
-    private ArrayList<ArrayList<Integer>> adj;
+    public int v;
+    public ArrayList<ArrayList<Integer>> adj;
 
     public Graph(int v) {
         this.v = v;
@@ -33,7 +33,7 @@ public class Graph {
 
         Queue<Integer> queue = new LinkedList<>();
         Set<Integer> set = new HashSet<>();
-
+        System.out.println("BFS : ");
         queue.add(start);
         set.add(start);
 
@@ -50,6 +50,31 @@ public class Graph {
                 if (!set.contains(next)) {
                     queue.add(next);
                     set.add(next);
+                }
+            }
+        }
+    }
+
+    public void DFS(int start) {
+
+        Stack<Integer> stack = new Stack<>();
+        Set<Integer> set = new HashSet<>();
+        System.out.println("DFS : ");
+        stack.push(start);
+        set.add(start);
+
+        while (!stack.isEmpty()) {
+            int current = stack.pop();
+            System.out.println(current + " ");
+
+            ArrayList<Integer> adjacentCurrentNodes = adj.get(current);
+
+            for (int i = 0; i < adjacentCurrentNodes.size(); i++) {
+                int next = adjacentCurrentNodes.get(i);
+
+                if (!set.contains(next)) {
+                    set.add(next);
+                    stack.push(next);
                 }
             }
         }

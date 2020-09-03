@@ -11,5 +11,6 @@ public class BFS {
         g.addEdge(3, 3);
         g.printGraph();
         g.bfs(2);
+        g.DFS(2);
     }
 }
