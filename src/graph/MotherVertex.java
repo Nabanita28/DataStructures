@@ -1,9 +1,7 @@
 package graph;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.Stack;
 
 public class MotherVertex {
     public static void main(String[] args) {
@@ -29,25 +27,7 @@ public class MotherVertex {
             if(!set.contains(v)){
 
                 //Will do DFS with start vertex as v
-                int start = v;
-                Stack<Integer> stack = new Stack<>();
-                stack.push(start);
-                set.add(start);
-
-                while (!stack.isEmpty()) {
-                    int current = stack.pop();
-
-                    ArrayList<Integer> adjacentCurrentNodes = graph.adj.get(current);
-
-                    for (int i = 0; i < adjacentCurrentNodes.size(); i++) {
-                        int next = adjacentCurrentNodes.get(i);
-
-                        if (!set.contains(next)) {
-                            set.add(next);
-                            stack.push(next);
-                        }
-                    }
-                }
+                graph.DFS(graph, set, v);
                 //-----DFS ENDS HERE------
 
                 lastVisitedVertex = v;
@@ -59,24 +39,8 @@ public class MotherVertex {
 
         // WE will do another DFS with the lastVisitedVertex as START Vertex,
         // IF it reaches all other vertices, then it is the mother vertex otherwise not
-        Stack<Integer> stack = new Stack<>();
-        stack.push(lastVisitedVertex);
-        set.add(lastVisitedVertex);
+        graph.DFS(graph, set, lastVisitedVertex);
 
-        while (!stack.isEmpty()) {
-            int current = stack.pop();
-
-            ArrayList<Integer> adjacentCurrentNodes = graph.adj.get(current);
-
-            for (int i = 0; i < adjacentCurrentNodes.size(); i++) {
-                int next = adjacentCurrentNodes.get(i);
-
-                if (!set.contains(next)) {
-                    set.add(next);
-                    stack.push(next);
-                }
-            }
-        }
 
         for(int v=0; v<graph.v; v++) {
             if (!set.contains(v)) {

@@ -79,4 +79,26 @@ public class Graph {
             }
         }
     }
+
+    public void DFS(Graph graph, Set<Integer> set, int v) {
+        int start = v;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(start);
+        set.add(start);
+
+        while (!stack.isEmpty()) {
+            int current = stack.pop();
+
+            ArrayList<Integer> adjacentCurrentNodes = graph.adj.get(current);
+
+            for (int i = 0; i < adjacentCurrentNodes.size(); i++) {
+                int next = adjacentCurrentNodes.get(i);
+
+                if (!set.contains(next)) {
+                    set.add(next);
+                    stack.push(next);
+                }
+            }
+        }
+    }
 }
