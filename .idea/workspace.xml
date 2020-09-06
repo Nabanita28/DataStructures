@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/MotherVertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/MotherVertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/MotherVertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/MotherVertex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,9 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortestPathToReachOnePrimeToAnother">
-    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.BFS" />
+  <component name="RunManager" selected="Application.DetectLoop">
+    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.DetectLoop" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectLoop" />
         <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
         <item itemvalue="Application.FindPrime" />
         <item itemvalue="Application.PathsBetweenTwoVertices" />
         <item itemvalue="Application.MotherVertex" />
-        <item itemvalue="Application.BFS" />
       </list>
     </recent_temporary>
   </component>
