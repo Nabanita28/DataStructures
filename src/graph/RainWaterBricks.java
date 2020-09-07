@@ -1,13 +1,15 @@
 package graph;
 
+import java.util.Arrays;
+
 public class RainWaterBricks {
 
     static int[][] wall = new int[][]{
-            //0 is porous, 1 is hollow
+            //0 is porous, 1 is solid
             {0, 0, 1, 1, 0},
             {0, 0, 1, 1, 0},
             {1, 1, 1, 1, 0},
-            {1, 1, 1, 1, 1}
+            {1, 1, 1, 1, 0}
     };
 
     public static void main(String[] args) {
@@ -47,7 +49,7 @@ public class RainWaterBricks {
     private static int[][] getPorousNeighbours(int row, int col) {
 
 
-   /*     int[][] neighbours  = new int[][]{
+        int[][] neighbours = new int[][]{
                 {row - 1, col - 1},
                 {row - 1, col},
                 {row - 1, col + 1}
@@ -56,23 +58,25 @@ public class RainWaterBricks {
 //                filter(neighbour -> wall[neighbour[0]][neighbour[1]] == 0 && neighbour[0]>=0 && neighbour[0]<wall.length && neighbour[1]>=0 && neighbour[1]<wall[0].length-1).toArray();
 
         int[][] validNeighbours = (int[][]) Arrays.stream(neighbours)
-                                    .filter(
-                                            neighbour -> {
-                                                int rowPosition = neighbour[0];
-                                                int colPosition = neighbour[1];
+                .filter(
+                        neighbour -> {
+                            int rowPosition = neighbour[0];
+                            int colPosition = neighbour[1];
 
-                                                int maxRowAllowed = wall.length - 1;
-                                                int maxColAllowed = wall[0].length - 1;
+                            int maxRowAllowed = wall.length - 1;
+                            int maxColAllowed = wall[0].length - 1;
 
-                                                int neighborsBrickValue = wall[rowPosition][colPosition];
+                            return rowPosition >= 0 && rowPosition < maxRowAllowed &&
+                                    colPosition >= 0 && colPosition < maxColAllowed &&
+                                    wall[rowPosition][colPosition] == 0;
+                        }).toArray();
+        return validNeighbours;
 
-                                                return rowPosition >= 0 && rowPosition < maxRowAllowed &&
-                                                        colPosition >= 0 && colPosition < maxColAllowed &&
-                                                        neighborsBrickValue == 0;
-                                            }).toArray();*/
 
+    }
 
-        int[][] neighbours;
+    public static void getNeighbours1() {
+           /* int[][] neighbours;
         if (row == 0) {
             return null;
         }
@@ -99,6 +103,7 @@ public class RainWaterBricks {
                 {row - 1, col + 1}
         };
 
-        return neighbours;
+        return neighbours;*/
     }
+
 }
