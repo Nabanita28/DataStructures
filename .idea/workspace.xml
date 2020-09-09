@@ -21,12 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/SquareRoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
