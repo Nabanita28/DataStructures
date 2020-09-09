@@ -2,7 +2,7 @@ package general;
 
 public class SquareRoot {
     public static void main(String[] args) {
-        System.out.println(findSquareRoot(5));
+        System.out.println(findSquareRoot(35));
     }
 
     private static double findSquareRoot(double num) {
@@ -13,19 +13,20 @@ public class SquareRoot {
     private static double sqrtUtil(double left, double right, double x) {
 
         double mid = (left + right)/2;
+        double ans = -1;
 
         if (mid*mid == x)
             return mid;
 
-        if (Math.abs(mid*mid - x) < 0.1)
+        if (Math.abs(mid*mid - x) < 0.0001)
             return mid;
 
         if (mid*mid > x)
-            sqrtUtil(left, mid, x);
+            ans = sqrtUtil(left, mid, x);
         else
-            sqrtUtil(mid+0.01, right, x);
+            ans = sqrtUtil(mid, right, x);
 
 
-        return -1;
+        return ans;
     }
 }

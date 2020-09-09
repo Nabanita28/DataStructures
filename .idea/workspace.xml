@@ -21,8 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/SquareRoot.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,18 +74,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -176,31 +169,46 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="298" key="GridCell.Tab.0.bottom" timestamp="1593852129110">
+    <state width="1878" height="319" key="GridCell.Tab.0.bottom" timestamp="1599664681529">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593852129110" />
-    <state width="1878" height="298" key="GridCell.Tab.0.center" timestamp="1593852129109">
+    <state width="1878" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
+    <state width="1878" height="319" key="GridCell.Tab.0.center" timestamp="1599664681529">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593852129109" />
-    <state width="1878" height="298" key="GridCell.Tab.0.left" timestamp="1593852129109">
+    <state width="1878" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
+    <state width="1878" height="319" key="GridCell.Tab.0.left" timestamp="1599664681528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593852129109" />
-    <state width="1878" height="298" key="GridCell.Tab.0.right" timestamp="1593852129110">
+    <state width="1878" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681528" />
+    <state width="1878" height="319" key="GridCell.Tab.0.right" timestamp="1599664681529">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593852129110" />
+    <state width="1878" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
+    <state width="1878" height="367" key="GridCell.Tab.1.bottom" timestamp="1599664458854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
+    <state width="1878" height="367" key="GridCell.Tab.1.center" timestamp="1599664458854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
+    <state width="1878" height="367" key="GridCell.Tab.1.left" timestamp="1599664458854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
+    <state width="1878" height="367" key="GridCell.Tab.1.right" timestamp="1599664458854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1593852025581">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -338,11 +346,6 @@
           <line>80</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/general/SquareRoot.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
           <line>7</line>
@@ -353,6 +356,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="mid*mid - x" />
+        <watch expression="Math.abs(mid*mid - x)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructtures$ChildrenSumProperty.ic" NAME="ChildrenSumProperty Coverage Results" MODIFIED="1598879770460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
