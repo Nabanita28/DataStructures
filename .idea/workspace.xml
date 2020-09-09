@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/ShortestPathToReachOnePrimeToAnother.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/ShortestPathToReachOnePrimeToAnother.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareRoot">
+  <component name="RunManager" selected="Application.ShortestPathToReachOnePrimeToAnother">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainWaterBricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.RainWaterBricks" />
+    <configuration name="ShortestPathToReachOnePrimeToAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.ShortestPathToReachOnePrimeToAnother" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
+        <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.NumberOfClusters" />
-        <item itemvalue="Application.RainWaterBricks" />
       </list>
     </recent_temporary>
   </component>
@@ -171,22 +173,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="319" key="GridCell.Tab.0.bottom" timestamp="1599664681529">
+    <state width="1878" height="142" key="GridCell.Tab.0.bottom" timestamp="1599666188835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
-    <state width="1878" height="319" key="GridCell.Tab.0.center" timestamp="1599664681529">
+    <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
+    <state width="1878" height="142" key="GridCell.Tab.0.center" timestamp="1599666188834">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
-    <state width="1878" height="319" key="GridCell.Tab.0.left" timestamp="1599664681528">
+    <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
+    <state width="1878" height="142" key="GridCell.Tab.0.left" timestamp="1599666188834">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681528" />
-    <state width="1878" height="319" key="GridCell.Tab.0.right" timestamp="1599664681529">
+    <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
+    <state width="1878" height="142" key="GridCell.Tab.0.right" timestamp="1599666188834">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664681529" />
+    <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom" timestamp="1599664458854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -334,11 +336,6 @@
           <url>file://$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java</url>
           <line>23</line>
           <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
