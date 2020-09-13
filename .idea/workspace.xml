@@ -82,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareRoot">
+  <component name="RunManager" selected="Application.ContinuousSubArray">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfClusters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.NumberOfClusters" />
+    <configuration name="ContinuousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.ContinuousSubArray" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="arrays.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainWaterBricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.RainWaterBricks" />
+    <configuration name="NumberOfClusters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.NumberOfClusters" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContinuousSubArray" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.NumberOfClusters" />
-        <item itemvalue="Application.RainWaterBricks" />
       </list>
     </recent_temporary>
   </component>
