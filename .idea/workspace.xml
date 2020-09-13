@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,20 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringPermutation">
-    <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParenthesisChecker">
     <configuration name="ContinuousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.mustDo.ContinuousSubArray" />
       <module name="DataStructtures" />
@@ -121,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathToReachOnePrimeToAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.ShortestPathToReachOnePrimeToAnother" />
+    <configuration name="FindMiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.FindMiddleNode" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParenthesisChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.mustDo.ParenthesisChecker" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParenthesisChecker" />
+        <item itemvalue="Application.FindMiddleNode" />
         <item itemvalue="Application.StringPermutation" />
         <item itemvalue="Application.CountTriplets" />
         <item itemvalue="Application.ContinuousSubArray" />
-        <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
-        <item itemvalue="Application.AmazonGoStores" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/arrays/mustDo/ContinuousSubArray.java</url>
           <line>15</line>
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/mustDo/FindMiddleNode.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>

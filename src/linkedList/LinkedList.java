@@ -2,7 +2,7 @@ package linkedList;
 
 public class LinkedList {
 
-    static Node head;
+    public static Node head;
 
     static void add(String data) {
         Node newNode = new Node(data);
