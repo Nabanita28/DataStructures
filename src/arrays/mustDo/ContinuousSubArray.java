@@ -12,7 +12,7 @@ public class ContinuousSubArray {
         int i = 0;
         int j = i + 1;
 
-        while(i<5){
+        while(i<arr.length && j<arr.length){
             res += arr[j];
 
             if (res < sum)
@@ -20,10 +20,11 @@ public class ContinuousSubArray {
 
             if (res > sum){
                 res = res - arr[i];
-                i++;
+                i++; j++;
             }
 
             if(res == sum){
+                j=j-1;
                 System.out.println("Start index = " + i + " End index = " + j);
                 break;
             }

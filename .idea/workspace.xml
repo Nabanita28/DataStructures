@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/general/SquareRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/general/SquareRoot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/ShortestPathToReachOnePrimeToAnother.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/ShortestPathToReachOnePrimeToAnother.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ShortestPathToReachOnePrimeToAnother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/ContinuousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/ContinuousSubArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,19 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestPathToReachOnePrimeToAnother">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ContinuousSubArray">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
@@ -85,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfClusters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.NumberOfClusters" />
+    <configuration name="ContinuousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.ContinuousSubArray" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="arrays.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContinuousSubArray" />
         <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
         <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NumberOfClusters" />
       </list>
     </recent_temporary>
   </component>
@@ -165,12 +178,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1878" height="142" key="GridCell.Tab.0.bottom" timestamp="1599666188835">
@@ -337,6 +351,11 @@
           <line>23</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/mustDo/ContinuousSubArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
           <line>7</line>
@@ -353,10 +372,5 @@
         <watch expression="Math.abs(mid*mid - x)" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataStructtures$ChildrenSumProperty.ic" NAME="ChildrenSumProperty Coverage Results" MODIFIED="1598879770460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>tree.*</FILTER>
-    </SUITE>
   </component>
 </project>
