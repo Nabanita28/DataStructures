@@ -93,6 +93,7 @@ public class ShortestPathToReachOnePrimeToAnother {
                 System.out.println();
                 ArrayList<Integer> path = new ArrayList<>();
                 ArrayList<Integer> tracer = visited.get(current);
+
                 while (tracer.get(1) != null){
                     path.add(tracer.get(1));
                     tracer = visited.get(tracer.get(1));
@@ -101,6 +102,7 @@ public class ShortestPathToReachOnePrimeToAnother {
                 for(int i= path.size()-1; i>= 0; i--){
                     System.out.print(primeNumbers.get(path.get(i))+ "->");
                 }
+                System.out.print(primeNumbers.get(destination));
 
                 System.out.println();
                 //Returning distance
