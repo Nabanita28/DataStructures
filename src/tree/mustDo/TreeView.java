@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
 
-public class LeftTreeView {
+public class TreeView {
 
     //          1
     //      2       3
