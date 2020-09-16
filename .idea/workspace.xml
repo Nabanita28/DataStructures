@@ -21,8 +21,45 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/META-INF/DataStructtures.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/arrays/FindPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/arrays/FindPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/general/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/general/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/AmazonGoStores$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/AmazonGoStores$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/AmazonGoStores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/AmazonGoStores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/DetectLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/DetectLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/MotherVertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/MotherVertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/PathsBetweenTwoVertices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/PathsBetweenTwoVertices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/graph/RainWaterBricks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/DetectLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedListPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/LinkedListPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/SwapNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/linkedList/SwapNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/DeleteStackElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/DeleteStackElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/InfixToPostFix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/InfixToPostFix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/ReverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/Stack$StackNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/Stack$StackNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSSpiral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSSpiral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BSFDirectionChangeAfter2Levels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BSFDirectionChangeAfter2Levels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/ChildrenSumProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/ChildrenSumProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/DistanceBetween2Nodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/DistanceBetween2Nodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/InorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/InorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCAUsingParentPointer$NodeTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCAUsingParentPointer$NodeTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCAUsingParentPointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/LCAUsingParentPointer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/LeftLeavesSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/LeftLeavesSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/ParentNodesSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/ParentNodesSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/ReverseBSF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/ReverseBSF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/SumTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/SumTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeSumAllNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeSumAllNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/StringPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringPermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +98,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -71,25 +108,13 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.LeftTreeView">
-    <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.CountTriplets" />
+  <component name="RunManager" selected="Application.LongestPalindrome">
+    <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.FindMiddleNode" />
+    <configuration name="FindPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.FindPrime" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftTreeView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.mustDo.LeftTreeView" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.LongestPalindrome" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.mustDo.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenthesisChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.mustDo.ParenthesisChecker" />
+    <configuration name="PathsBetweenTwoVertices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.PathsBetweenTwoVertices" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.mustDo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.StringPermutation" />
+    <configuration name="ShortestPathToReachOnePrimeToAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.ShortestPathToReachOnePrimeToAnother" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,14 +176,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeftTreeView" />
-        <item itemvalue="Application.ParenthesisChecker" />
-        <item itemvalue="Application.FindMiddleNode" />
-        <item itemvalue="Application.StringPermutation" />
-        <item itemvalue="Application.CountTriplets" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.PathsBetweenTwoVertices" />
+        <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
+        <item itemvalue="Application.AmazonGoStores" />
+        <item itemvalue="Application.FindPrime" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -177,54 +203,63 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="142" key="GridCell.Tab.0.bottom" timestamp="1599666188835">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1600280647179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600280647179" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1878" height="142" key="GridCell.Tab.0.center" timestamp="1599666188834">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1600280647179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600280647179" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1878" height="142" key="GridCell.Tab.0.left" timestamp="1599666188834">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1600280647179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600280647179" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1878" height="142" key="GridCell.Tab.0.right" timestamp="1599666188834">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1600280647179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600280647179" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1878" height="367" key="GridCell.Tab.1.bottom" timestamp="1599664458854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="299" key="GridCell.Tab.1.bottom" timestamp="1600280134418">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600280134418" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1878" height="367" key="GridCell.Tab.1.center" timestamp="1599664458854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="299" key="GridCell.Tab.1.center" timestamp="1600280134418">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600280134418" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1878" height="367" key="GridCell.Tab.1.left" timestamp="1599664458854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="299" key="GridCell.Tab.1.left" timestamp="1600280134418">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600280134418" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1878" height="367" key="GridCell.Tab.1.right" timestamp="1599664458854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="299" key="GridCell.Tab.1.right" timestamp="1600280134418">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600280134418" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1593852025581">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="469" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600277442088" />
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593852025581" />
-    <state x="667" y="103" width="586" height="873" key="find.popup" timestamp="1593852161042">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="667" y="99" width="586" height="841" key="find.popup" timestamp="1600279132566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600279132566" />
     <state x="667" y="103" width="586" height="873" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593852161042" />
   </component>
   <component name="XDebuggerManager">
