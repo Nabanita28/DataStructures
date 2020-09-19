@@ -8,6 +8,7 @@ public class LongestPalindrome {
 
     private static void findLongestPalindrome(String s) {
 
+        //TODO need to re-visit
         int n = s.length();
         int low = 0;
         int high = 0;

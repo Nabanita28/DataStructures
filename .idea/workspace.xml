@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/MergeTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/mustDo/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/mustDo/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +67,14 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="arrays" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="linkedList" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArrays">
+  <component name="RunManager" selected="Application.IntersectionPointInYShapedLinkedList">
     <configuration name="CheckIfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.mustDo.CheckIfBST" />
       <module name="DataStructtures" />
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.mustDo.LongestPalindrome" />
+    <configuration name="IntersectionPointInYShapedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.IntersectionPointInYShapedLinkedList" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.mustDo.*" />
+          <option name="PATTERN" value="linkedList.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.RotateLinkedList" />
+    <configuration name="ReverseKNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.ReverseKNodes" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionPointInYShapedLinkedList" />
+        <item itemvalue="Application.ReverseKNodes" />
         <item itemvalue="Application.MergeTwoSortedArrays" />
         <item itemvalue="Application.VerticalTraversal" />
         <item itemvalue="Application.CheckIfBST" />
-        <item itemvalue="Application.RotateLinkedList" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -176,55 +181,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1600515391782">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1600532850884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600515391782" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600532850884" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1600515391782">
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1600532850884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600515391782" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600532850884" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1600515391782">
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1600532850884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600515391782" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600532850884" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1600515391782">
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1600532850884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600515391782" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600532850884" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="299" key="GridCell.Tab.1.bottom" timestamp="1600283646895">
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1600532270624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600283646895" />
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600532270624" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="299" key="GridCell.Tab.1.center" timestamp="1600283646895">
+    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1600532270624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600283646895" />
+    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600532270624" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="299" key="GridCell.Tab.1.left" timestamp="1600283646895">
+    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1600532270624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600283646895" />
+    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600532270624" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="299" key="GridCell.Tab.1.right" timestamp="1600283646895">
+    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1600532270624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600283646895" />
+    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600532270624" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="469" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600277442088" />
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593852025581" />
-    <state x="667" y="99" width="586" height="841" key="find.popup" timestamp="1600289470417">
+    <state x="667" y="99" width="586" height="841" key="find.popup" timestamp="1600532664985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600289470417" />
+    <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600532664985" />
     <state x="667" y="103" width="586" height="873" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593852161042" />
   </component>
   <component name="XDebuggerManager">
@@ -364,6 +369,11 @@
           <url>file://$PROJECT_DIR$/src/linkedList/mustDo/RotateLinkedList.java</url>
           <line>38</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/mustDo/IntersectionPointInYShapedLinkedList.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>

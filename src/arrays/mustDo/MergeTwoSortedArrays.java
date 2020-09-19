@@ -6,7 +6,7 @@ public class MergeTwoSortedArrays {
         int[] arr2 = new int[]{3,9};
         mergeSortedArrays(arr1,arr2);
     }
-    //TODO - do it again
+    //TODO need to re-visit
 
     private static void mergeSortedArrays(int[] arr1, int[] arr2) {
         int arr1Length = arr1.length;
