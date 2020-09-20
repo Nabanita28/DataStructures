@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BFSwithoutSibling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSwithoutSibling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFSandDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/DetectLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DetectLoopDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/PathsBetweenTwoVertices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/PathsBetweenTwoVertices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +76,13 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectNodesAtSameLevel">
-    <configuration name="BFSwithoutSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BFSwithoutSibling" />
+  <component name="RunManager" selected="Application.TopologicalSorting">
+    <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionPointInYShapedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.IntersectionPointInYShapedLinkedList" />
+    <configuration name="PathsBetweenTwoVertices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.PathsBetweenTwoVertices" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.MergeTwoSortedArrays" />
+    <configuration name="ShortestPathToReachOnePrimeToAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.ShortestPathToReachOnePrimeToAnother" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.ReverseKNodes" />
+    <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.mustDo.TopologicalSorting" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="graph.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologicalSorting" />
+        <item itemvalue="Application.AmazonGoStores" />
+        <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
+        <item itemvalue="Application.PathsBetweenTwoVertices" />
         <item itemvalue="Application.ConnectNodesAtSameLevel" />
-        <item itemvalue="Application.BFSwithoutSibling" />
-        <item itemvalue="Application.IntersectionPointInYShapedLinkedList" />
-        <item itemvalue="Application.ReverseKNodes" />
-        <item itemvalue="Application.MergeTwoSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -184,45 +183,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1600616217719">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1600636241673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600616217719" />
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1600616217718">
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1600636241673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600616217718" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1600616217718">
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1600636241673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600616217718" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1600616217718">
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1600636241673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600616217718" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="382" key="GridCell.Tab.1.bottom" timestamp="1600540519275">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600636094561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600540519275" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="382" key="GridCell.Tab.1.center" timestamp="1600540519275">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600636094561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600540519275" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="382" key="GridCell.Tab.1.left" timestamp="1600540519275">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600636094561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600540519275" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="382" key="GridCell.Tab.1.right" timestamp="1600540519275">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600636094561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600540519275" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -339,13 +338,13 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/graph/BFSandDFS.java</url>
           <line>13</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graph/PathsBetweenTwoVertices.java</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -387,6 +386,16 @@
           <url>file://$PROJECT_DIR$/src/tree/BFSwithoutSibling.java</url>
           <line>5</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/mustDo/TopologicalSorting.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/mustDo/TopologicalSorting.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>

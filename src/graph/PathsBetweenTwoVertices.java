@@ -18,6 +18,7 @@ public class PathsBetweenTwoVertices {
     }
 
     private static int findPathsBetweenTwoVertices(Graph g, int start, int destination) {
+        //apply bfs
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
 
