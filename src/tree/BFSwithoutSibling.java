@@ -8,10 +8,11 @@ public class BFSwithoutSibling {
     public static void main(String[] args) {
         TreeNode root = BasicTreeFunctions.createTree();
         System.out.println("BFS without Sibling");
-        bfsWithoutSibling(root, 5);
+        bfsWithoutSibling(root, 10);
 
     }
 
+    //print same level nodes without the sibling
     private static void bfsWithoutSibling(TreeNode root, int value) {
 
         Queue<TreeNode> q1 = new LinkedList<>();
@@ -30,7 +31,6 @@ public class BFSwithoutSibling {
                         parent = temp;
                         continue;
                     }
-                  //  if (parent != null) continue;
 
                     if (temp.left != null)
                         q2.add(temp.left);
@@ -50,7 +50,6 @@ public class BFSwithoutSibling {
                         parent = temp;
                         continue;
                 }
-               // if (parent != null) continue;
 
                 if(temp.left != null)
                     q1.add(temp.left);

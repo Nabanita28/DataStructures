@@ -21,10 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFSandDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/DetectLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DetectLoopDirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/PathsBetweenTwoVertices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/PathsBetweenTwoVertices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSwithoutSibling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BasicTreeFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BFSwithoutSibling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSwithoutSibling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BasicTreeFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopologicalSorting">
+  <component name="RunManager" selected="Application.ArrangeZigZag">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectNodesAtSameLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.mustDo.ConnectNodesAtSameLevel" />
+    <configuration name="ArrangeZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.ArrangeZigZag" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.mustDo.*" />
+          <option name="PATTERN" value="arrays.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathsBetweenTwoVertices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.PathsBetweenTwoVertices" />
+    <configuration name="BFSwithoutSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BFSwithoutSibling" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrangeZigZag" />
+        <item itemvalue="Application.BFSwithoutSibling" />
         <item itemvalue="Application.TopologicalSorting" />
         <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.ShortestPathToReachOnePrimeToAnother" />
-        <item itemvalue="Application.PathsBetweenTwoVertices" />
-        <item itemvalue="Application.ConnectNodesAtSameLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -183,55 +183,59 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1600636241673">
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1600717925309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600717925309" />
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1600718477824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600718477824" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1600636241673">
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1600718477824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600718477824" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1600636241673">
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1600718477824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600718477824" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1600636241673">
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1600718477824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600636241673" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600718477824" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600636094561">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600718423945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600718423945" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600636094561">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600718423945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600718423945" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600636094561">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600718423945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600718423945" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600636094561">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600718423945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600636094561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600718423945" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="469" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600277442088" />
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593852025581" />
-    <state x="667" y="99" width="586" height="841" key="find.popup" timestamp="1600532664985">
+    <state x="667" y="99" width="586" height="841" key="find.popup" timestamp="1600710252741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600532664985" />
+    <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600710252741" />
     <state x="667" y="103" width="586" height="873" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593852161042" />
   </component>
   <component name="XDebuggerManager">
@@ -379,7 +383,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/BFSwithoutSibling.java</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
