@@ -8,14 +8,24 @@ public class ArrangeZigZag {
 
     private static void arrangeZigZag(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
-            if (isEven(i) && arr[i] > arr[i + 1]) {
+            boolean isDecreasing = arr[i] > arr[i+1];
+            boolean isEven = i%2 ==0;
+            //
+
+            if (isEven ^ isDecreasing) {
+                swap(arr, i);
+            }
+
+            //
+
+           /* if (isEven && isIncreasing) {
                 continue;
             }
-            else if (isOdd(i) && arr[i] < arr[i + 1]) {
+            else if (!isEven && !isIncreasing) {
                 continue;
             } else {
                 swap(arr, i);
-            }
+            }*/
         }
         for (int k : arr)
             System.out.print(k + " ");
@@ -27,11 +37,4 @@ public class ArrangeZigZag {
         arr[i + 1] = temp;
     }
 
-    private static boolean isEven(int i) {
-        return (i % 2 == 0);
-    }
-
-    private static boolean isOdd(int i) {
-        return !isEven(i);
-    }
 }
