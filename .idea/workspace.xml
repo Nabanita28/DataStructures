@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +72,22 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sort0s1s2s">
-    <configuration name="ArrangeZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.ArrangeZigZag" />
+  <component name="RunManager" selected="Application.RemoveLoop">
+    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.DetectLoop" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquilibriumPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.EquilibriumPosition" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -87,28 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFSwithoutSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BFSwithoutSibling" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberGame" />
-      <module name="DataStructtures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort0s1s2s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.Sort0s1s2s" />
+    <configuration name="FindLeaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.FindLeaders" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.mustDo.TopologicalSorting" />
+    <configuration name="RemoveAdjacentDuplicatesRecursively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.mustDo.RemoveAdjacentDuplicatesRecursively" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.mustDo.*" />
+          <option name="PATTERN" value="strings.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.RemoveLoop" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sort0s1s2s" />
-        <item itemvalue="Application.NumberGame" />
-        <item itemvalue="Application.ArrangeZigZag" />
-        <item itemvalue="Application.BFSwithoutSibling" />
-        <item itemvalue="Application.TopologicalSorting" />
+        <item itemvalue="Application.RemoveLoop" />
+        <item itemvalue="Application.DetectLoop" />
+        <item itemvalue="Application.RemoveAdjacentDuplicatesRecursively" />
+        <item itemvalue="Application.FindLeaders" />
+        <item itemvalue="Application.EquilibriumPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -174,49 +179,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1600717925309">
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1600865291828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600717925309" />
-    <state width="1877" height="717" key="GridCell.Tab.0.bottom" timestamp="1600805085983">
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600865291828" />
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1600887211912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="717" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600805085983" />
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="717" key="GridCell.Tab.0.center" timestamp="1600805085983">
+    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1600887211912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="717" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600805085983" />
+    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="717" key="GridCell.Tab.0.left" timestamp="1600805085983">
+    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1600887211912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="717" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600805085983" />
+    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="717" key="GridCell.Tab.0.right" timestamp="1600805085983">
+    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1600887211912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="717" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600805085983" />
+    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600722588561">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600877816972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600722588561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600722588561">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600877816972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600722588561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600722588561">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600877816972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600722588561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600722588561">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600877816972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600722588561" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -300,11 +305,6 @@
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedList.java</url>
           <line>102</line>
           <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/DetectLoop.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedListPalindrome.java</url>
@@ -395,6 +395,11 @@
           <url>file://$PROJECT_DIR$/src/graph/mustDo/TopologicalSorting.java</url>
           <line>36</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/mustDo/EquilibriumPosition.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
