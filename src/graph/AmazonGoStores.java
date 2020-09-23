@@ -16,7 +16,7 @@ public class AmazonGoStores {
         }
     }
 
-
+//TODO - revisit
 
     static int[][] arr = new int[][]{
             {1,0,0,1},

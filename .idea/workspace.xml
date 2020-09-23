@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/AmazonGoStores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/AmazonGoStores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LCAUsingParentPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LCAUsingParentPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +74,13 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveLoop">
-    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DetectLoop" />
+  <component name="RunManager" selected="Application.AmazonGoStores">
+    <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquilibriumPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.EquilibriumPosition" />
+    <configuration name="BasicTreeFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BasicTreeFunctions" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLeaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.FindLeaders" />
+    <configuration name="BinaryTreeToDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.mustDo.BinaryTreeToDoublyLinkedList" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="PATTERN" value="tree.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAdjacentDuplicatesRecursively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.mustDo.RemoveAdjacentDuplicatesRecursively" />
+    <configuration name="LCAUsingParentPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LCAUsingParentPointer" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.mustDo.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AmazonGoStores" />
+        <item itemvalue="Application.BinaryTreeToDoublyLinkedList" />
+        <item itemvalue="Application.BasicTreeFunctions" />
+        <item itemvalue="Application.LCAUsingParentPointer" />
         <item itemvalue="Application.RemoveLoop" />
-        <item itemvalue="Application.DetectLoop" />
-        <item itemvalue="Application.RemoveAdjacentDuplicatesRecursively" />
-        <item itemvalue="Application.FindLeaders" />
-        <item itemvalue="Application.EquilibriumPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -183,25 +185,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600865291828" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1600887211912">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1600894914943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1600887211912">
+    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1600894914943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
+    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1600887211912">
+    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1600894914943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
+    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1600887211912">
+    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1600894914943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600887211912" />
+    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
     <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600877816972">
       <screen x="0" y="0" width="1920" height="1040" />
