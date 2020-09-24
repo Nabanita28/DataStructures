@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/AmazonGoStores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/AmazonGoStores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LCAUsingParentPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LCAUsingParentPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmazonGoStores">
+  <component name="RunManager" selected="Application.NumberOfIslands">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
       <module name="DataStructtures" />
@@ -127,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.RemoveLoop" />
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.mustDo.NumberOfIslands" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="graph.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.AmazonGoStores" />
         <item itemvalue="Application.BinaryTreeToDoublyLinkedList" />
         <item itemvalue="Application.BasicTreeFunctions" />
         <item itemvalue="Application.LCAUsingParentPointer" />
-        <item itemvalue="Application.RemoveLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -185,45 +183,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600865291828" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1600894914943">
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1600974038228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600974038228" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1600974921590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600974921590" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1600894914943">
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1600974921590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600974921590" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1600894914943">
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1600974921590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600974921590" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1600894914943">
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1600974921590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600894914943" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600974921590" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600877816972">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1600974182169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600974182169" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600877816972">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1600974182169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600974182169" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600877816972">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1600974182169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600974182169" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600877816972">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1600974182169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600877816972" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600974182169" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -402,6 +404,11 @@
           <url>file://$PROJECT_DIR$/src/arrays/mustDo/EquilibriumPosition.java</url>
           <line>17</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/mustDo/NumberOfIslands.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
