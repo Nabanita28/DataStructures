@@ -59,7 +59,7 @@ public class NumberOfIslands {
         while (!queue.isEmpty()) {
             Island current = queue.remove();
 
-            List<Island> neighbours = getNeighbour(current.x, current.y);
+            List<Island> neighbours = getNeighbours(current.x, current.y);
 
             for (int i = 0; i < neighbours.size(); i++) {
                 Island next = neighbours.get(i);
@@ -74,7 +74,7 @@ public class NumberOfIslands {
 
 
 
-    public static List<Island> getNeighbour(int row, int col) {
+    public static List<Island> getNeighbours(int row, int col) {
 
         List<Island> islands = new ArrayList<>();
         islands.add(new Island(row, col - 1));
