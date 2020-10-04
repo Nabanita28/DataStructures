@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/mustDo/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/mustDo/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/mustDo/TreeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/mustDo/TreeViews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/mustDo/VerticalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/mustDo/VerticalView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,48 +78,9 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindNthNodeFromEnd">
-    <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindNthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.FindNthNodeFromEnd" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.mustDo.NumberOfIslands" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.mustDo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfTrainPlatforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.NumberOfTrainPlatforms" />
+  <component name="RunManager" selected="Application.StockBuySell">
+    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.KthSmallestElement" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +92,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.mustDo.RomanToInteger" />
+    <configuration name="ReverseKNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.ReverseKNodes" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.mustDo.*" />
+          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.RotateLinkedList" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.StockBuySell" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.SwapNodes" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindNthNodeFromEnd" />
-        <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.NumberOfTrainPlatforms" />
-        <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.AmazonGoStores" />
+        <item itemvalue="Application.StockBuySell" />
+        <item itemvalue="Application.KthSmallestElement" />
+        <item itemvalue="Application.RotateLinkedList" />
+        <item itemvalue="Application.SwapNodes" />
+        <item itemvalue="Application.ReverseKNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -188,51 +193,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600974038228" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1601150972906">
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1601802910580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1601150972906">
+    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1601802910580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1601150972906">
+    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1601802910580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1601150972906">
+    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1601802910580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1601150972906">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1601243341998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1601150972906">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1601243341998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1601150972906">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1601243341998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1601150972906">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1601243341998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601150972906" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="469" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600277442088" />
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593852025581" />
+    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1601737107404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601737107404" />
     <state x="690" y="277" key="extract.method.dialog" timestamp="1600718649889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
