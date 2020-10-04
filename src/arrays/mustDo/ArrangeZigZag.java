@@ -8,20 +8,20 @@ public class ArrangeZigZag {
 
     private static void arrangeZigZag(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
-            boolean isDecreasing = arr[i] > arr[i+1];
+            boolean isNextDecreasing = arr[i] > arr[i+1];
             boolean isEven = i%2 ==0;
             //
 
-            if (isEven ^ isDecreasing) {
+            if (isEven ^ isNextDecreasing) {
                 swap(arr, i);
             }
 
             //
 
-           /* if (isEven && isIncreasing) {
+           /* if (isEven && isNextDecreasing) {
                 continue;
             }
-            else if (!isEven && !isIncreasing) {
+            else if (!isEven && !isNextDecreasing) {
                 continue;
             } else {
                 swap(arr, i);

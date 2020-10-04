@@ -21,12 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/BFSLevelWise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructtures/tree/TreeDepth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BFSLevelWise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/mustDo/TreeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/mustDo/TreeViews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/mustDo/VerticalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/mustDo/VerticalView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/KthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/KthSmallestElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +74,9 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockBuySell">
-    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.KthSmallestElement" />
+  <component name="RunManager" selected="Application.SnakeLadderProblem">
+    <configuration name="BiggestNumberFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.BiggestNumberFromArray" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.ReverseKNodes" />
+    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.KthSmallestElement" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="arrays.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SnakeLadderProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.mustDo.SnakeLadderProblem" />
+      <module name="DataStructtures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.mustDo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.mustDo.StockBuySell" />
       <module name="DataStructtures" />
@@ -131,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.SwapNodes" />
-      <module name="DataStructtures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StockBuySell" />
+        <item itemvalue="Application.SnakeLadderProblem" />
+        <item itemvalue="Application.BiggestNumberFromArray" />
         <item itemvalue="Application.KthSmallestElement" />
+        <item itemvalue="Application.StockBuySell" />
         <item itemvalue="Application.RotateLinkedList" />
-        <item itemvalue="Application.SwapNodes" />
-        <item itemvalue="Application.ReverseKNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -185,53 +181,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1600865291828">
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1601827339364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600865291828" />
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1601827339364" />
     <state width="413" height="466" key="DebuggerActiveHint" timestamp="1600974038228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600974038228" />
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1601802910580">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1601802910580">
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1601802910580">
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1601802910580">
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601802910580" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1601243341998">
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1601243341998">
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1601243341998">
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1601243341998">
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1601836335538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601243341998" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -251,6 +247,10 @@
     </state>
     <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600710252741" />
     <state x="667" y="103" width="586" height="873" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593852161042" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601832706649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601832706649" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,6 +424,21 @@
           <url>file://$PROJECT_DIR$/src/strings/mustDo/RomanToInteger.java</url>
           <line>14</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/mustDo/BiggestNumberFromArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/mustDo/SnakeLadderProblem.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/mustDo/SnakeLadderProblem.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
