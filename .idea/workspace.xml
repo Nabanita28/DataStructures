@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/ArrangeZigZag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/mustDo/KthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mustDo/KthSmallestElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnakeLadderProblem">
+  <component name="RunManager" selected="Application.HaystackNeedle">
     <configuration name="BiggestNumberFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.mustDo.BiggestNumberFromArray" />
       <module name="DataStructtures" />
@@ -88,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.KthSmallestElement" />
+    <configuration name="HaystackNeedle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mockInterviews.HaystackNeedle" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.mustDo.*" />
+          <option name="PATTERN" value="arrays.mockInterviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.mustDo.RotateLinkedList" />
+    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mustDo.KthSmallestElement" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.mustDo.*" />
+          <option name="PATTERN" value="arrays.mustDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HaystackNeedle" />
         <item itemvalue="Application.SnakeLadderProblem" />
         <item itemvalue="Application.BiggestNumberFromArray" />
         <item itemvalue="Application.KthSmallestElement" />
         <item itemvalue="Application.StockBuySell" />
-        <item itemvalue="Application.RotateLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -181,63 +179,63 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="337" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600289404932" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1601827339364">
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1602002165186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1601827339364" />
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1602002165186" />
     <state width="413" height="466" key="DebuggerActiveHint" timestamp="1600974038228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600974038228" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1601836335538">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1602002175350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602002175350" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1601836335538">
+    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1602002175349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602002175349" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1601836335538">
+    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1602002175349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602002175349" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1601836335538">
+    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1602002175350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602002175350" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1601836335538">
+    <state width="1877" height="256" key="GridCell.Tab.1.bottom" timestamp="1602001965964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602001965964" />
     <state width="1878" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1601836335538">
+    <state width="1877" height="256" key="GridCell.Tab.1.center" timestamp="1602001965964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602001965964" />
     <state width="1878" height="367" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1601836335538">
+    <state width="1877" height="256" key="GridCell.Tab.1.left" timestamp="1602001965964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602001965964" />
     <state width="1878" height="367" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1601836335538">
+    <state width="1877" height="256" key="GridCell.Tab.1.right" timestamp="1602001965964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601836335538" />
+    <state width="1877" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602001965964" />
     <state width="1878" height="367" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599664458854" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1600277442088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="469" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600277442088" />
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593852025581" />
-    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1601737107404">
+    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1601998293973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601737107404" />
+    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601998293973" />
     <state x="690" y="277" key="extract.method.dialog" timestamp="1600718649889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,6 +245,10 @@
     </state>
     <state x="667" y="99" width="586" height="841" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600710252741" />
     <state x="667" y="103" width="586" height="873" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593852161042" />
+    <state x="660" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1601998394435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601998394435" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601832706649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -439,6 +441,11 @@
           <url>file://$PROJECT_DIR$/src/graph/mustDo/SnakeLadderProblem.java</url>
           <line>42</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/mockInterviews/HaystackNeedle.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tree/ReverseBSF.java</url>
