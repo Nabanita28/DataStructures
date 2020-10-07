@@ -6,7 +6,7 @@ public class HaystackNeedle {
         String pattern = "ABCD";
         findIndexOfNeedleInHaystack(text, pattern);
     }
-//need to revisit
+//TODO - need to revisit
     static final int MAX = 256;
     private static void findIndexOfNeedleInHaystack(String text, String pattern) {
 
