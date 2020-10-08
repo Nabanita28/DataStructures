@@ -2,7 +2,7 @@ package graph;
 
 import java.util.List;
 
-public class DetectLoop {
+public class DetectCycleDirectedGraph {
     static Graph graph = new Graph(4);
     public static void main(String[] args) {
 

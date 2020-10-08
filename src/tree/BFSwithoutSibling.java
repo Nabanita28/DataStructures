@@ -4,15 +4,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BFSwithoutSibling {
+    //TODO - revise
     public static void main(String[] args) {
         TreeNode root = BasicTreeFunctions.createTree();
-        System.out.println("Using recursion ");
-        BasicTreeFunctions.inorder(root);
-        System.out.println("BFS spiral traversal");
-        bfsWithoutSibling(root, 7);
+        System.out.println("BFS without Sibling");
+        bfsWithoutSibling(root, 10);
 
     }
 
+    //print same level nodes without the sibling
     private static void bfsWithoutSibling(TreeNode root, int value) {
 
         Queue<TreeNode> q1 = new LinkedList<>();
@@ -23,14 +23,14 @@ public class BFSwithoutSibling {
         if(root.key == value)
             System.out.println(q1.remove() + "value is root");
 
-        while(!q1.isEmpty() || !q1.isEmpty()){
+        while(!q1.isEmpty() || !q2.isEmpty()){
 
             while(!q1.isEmpty()) {
                 TreeNode temp = q1.remove();
                     if ((temp.left != null && temp.left.key == value) || (temp.right != null && temp.right.key == value)) {
                         parent = temp;
+                        continue;
                     }
-                    if (parent != null) continue;
 
                     if (temp.left != null)
                         q2.add(temp.left);
@@ -48,8 +48,8 @@ public class BFSwithoutSibling {
                 TreeNode temp = q2.remove();
                     if ((temp.left != null &&temp.left.key == value) || (temp.right !=null &&temp.right.key == value)){
                         parent = temp;
+                        continue;
                 }
-                if (parent != null) continue;
 
                 if(temp.left != null)
                     q1.add(temp.left);

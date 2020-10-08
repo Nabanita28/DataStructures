@@ -1,9 +1,9 @@
 package linkedList;
 
 public class Node {
-    int data;
-    String input;
-    Node next;
+    public int data;
+    public String input;
+    public Node next;
 
     public Node(int data) {
         this.data = data;

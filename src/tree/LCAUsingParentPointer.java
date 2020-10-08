@@ -2,21 +2,22 @@ package tree;
 
 public class LCAUsingParentPointer {
     public static void main(String[] args) {
+        //TODO - revisit
         LCAUsingParentPointer tree = new LCAUsingParentPointer();
-        tree.root = tree.insert(tree.root, 20);
-        tree.root = tree.insert(tree.root, 8);
-        tree.root = tree.insert(tree.root, 22);
-        tree.root = tree.insert(tree.root, 4);
-        tree.root = tree.insert(tree.root, 12);
-        tree.root = tree.insert(tree.root, 10);
-        tree.root = tree.insert(tree.root, 14);
+        root = tree.insert(root, 20);
+        root = tree.insert(root, 8);
+        root = tree.insert(root, 22);
+        root = tree.insert(root, 4);
+        root = tree.insert(root, 12);
+        root = tree.insert(root, 10);
+        root = tree.insert(root, 14);
 
-        tree.n1 = tree.root.left.right.left;
-        tree.n2 = tree.root.right;
-        tree.lca = tree.LCA(tree.n1, tree.n2);
+        n1 = tree.root.left.right.left;
+        n2 = tree.root.right;
+        lca = tree.LCA(n1, n2);
 
-        System.out.println("LCA of " + tree.n1.key + " and " + tree.n2.key
-                + " is " + tree.lca.key);
+        System.out.println("LCA of " + n1.key + " and " + n2.key
+                + " is " + lca.key);
     }
 
     static NodeTree root, n1, n2, lca;

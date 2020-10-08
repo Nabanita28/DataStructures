@@ -1,6 +1,6 @@
 package graph;
 
-public class BFS {
+public class BFSandDFS {
     public static void main(String[] args) {
         Graph g = new Graph(5);
         g.addEdge(0, 1);

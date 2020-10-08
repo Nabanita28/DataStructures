@@ -6,8 +6,6 @@ import java.util.Queue;
 public class BFSLevelWise {
     public static void main(String[] args) {
         TreeNode root = BasicTreeFunctions.createTree();
-        System.out.println("Using recursion ");
-        BasicTreeFunctions.inorder(root);
         System.out.println("BFS traversal");
         bfsLevelWiseTraversal(root);
     }
