@@ -76,15 +76,12 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-<<<<<<< HEAD
   <component name="RunManager" selected="Application.binaryNumberCount">
     <configuration name="AmazonGoStores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AmazonGoStores" />
-=======
   <component name="RunManager" selected="Application.AlienLanguage">
     <configuration name="AlienLanguage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.mock.AlienLanguage" />
->>>>>>> 534a42aca23ea0a3564bcf84a8e8d3b0af71fb9e
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +127,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="general.Test" />
-=======
     <configuration name="RangeUpdatesAndPointQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.mockInterviews.RangeUpdatesAndPointQueries" />
->>>>>>> 534a42aca23ea0a3564bcf84a8e8d3b0af71fb9e
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
