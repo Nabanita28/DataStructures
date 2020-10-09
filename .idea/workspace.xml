@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e073863b-5b83-46a5-b951-1f66820afbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/mockInterviews/MaximumNumberof1InSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/mockInterviews/MaximumNumberOf1InSortedMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumLengthOfRope">
+  <component name="RunManager" selected="Application.MaximumNumberOf1InSortedMatrix">
     <configuration name="AlienLanguage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.mock.AlienLanguage" />
       <module name="DataStructtures" />
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumLengthOfRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.MinimumLengthOfRope" />
+    <configuration name="MaximumNumberOf1InSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.mockInterviews.MaximumNumberOf1InSortedMatrix" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="arrays.mockInterviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.mock.OrderOfCharacters" />
+    <configuration name="MinimumLengthOfRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MinimumLengthOfRope" />
       <module name="DataStructtures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.mock.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNumberOf1InSortedMatrix" />
         <item itemvalue="Application.MinimumLengthOfRope" />
         <item itemvalue="Application.DiagonalSumOfTree" />
         <item itemvalue="Application.binaryNumberCount" />
         <item itemvalue="Application.AlienLanguage" />
-        <item itemvalue="Application.OrderOfCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -187,25 +188,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600974038228" />
-    <state width="1877" height="286" key="GridCell.Tab.0.bottom" timestamp="1602238138794">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom" timestamp="1602238971223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602238138794" />
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602238971223" />
     <state width="1878" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188835" />
-    <state width="1877" height="286" key="GridCell.Tab.0.center" timestamp="1602238138794">
+    <state width="1877" height="286" key="GridCell.Tab.0.center" timestamp="1602238971223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602238138794" />
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602238971223" />
     <state width="1878" height="142" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="286" key="GridCell.Tab.0.left" timestamp="1602238138793">
+    <state width="1877" height="286" key="GridCell.Tab.0.left" timestamp="1602238971223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602238138793" />
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602238971223" />
     <state width="1878" height="142" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
-    <state width="1877" height="286" key="GridCell.Tab.0.right" timestamp="1602238138794">
+    <state width="1877" height="286" key="GridCell.Tab.0.right" timestamp="1602238971223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602238138794" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602238971223" />
     <state width="1878" height="142" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599666188834" />
     <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1602099215192">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -253,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601832706649" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602082707367">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602238697720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602082707367" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602238697720" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
