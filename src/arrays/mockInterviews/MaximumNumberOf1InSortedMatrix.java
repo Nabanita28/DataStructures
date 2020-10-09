@@ -9,26 +9,21 @@ public class MaximumNumberOf1InSortedMatrix {
                         {1,1,1,1},
                         {0,0,0,0}
                 };
-        findMaximumNumberOf1InARow(matrix);
+        findMaximumNumberOf1InARowByKidru(matrix);
     }
 
-    private static void findMaximumNumberOf1InARow(int[][] matrix) {
+    private static void findMaximumNumberOf1InARowByKidru(int[][] matrix) {
 
         int j = matrix[0].length - 1;
-        int maxIndex = 0;
+        int maxRowIndex = 0;
 
         for (int i=0; i<matrix.length; i++){
             while(j>=0 && matrix[i][j] == 1){
                 j--;
-                maxIndex = i;
+                maxRowIndex = i;
             }
         }
 
-        System.out.println("Maximum number of 1's is present in the given matrix is present at index : " + maxIndex);
-    }
-
-
-    private static void findMaximumNumberOf1InARowByGogo(int[][] matrix) {
-
+        System.out.println("Maximum number of 1's is present in the given matrix is present at index : " + maxRowIndex);
     }
 }

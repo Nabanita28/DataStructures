@@ -1,6 +1,7 @@
 # Out folder
 out/
 
+# generated from https://www.toptal.com/developers/gitignore
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
