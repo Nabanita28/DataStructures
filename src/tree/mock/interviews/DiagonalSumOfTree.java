@@ -1,9 +1,6 @@
-package tree.mustDo.mock.interviews;
+package tree.mock.interviews;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 public class DiagonalSumOfTree {
     static class TreeNode{
@@ -35,7 +32,8 @@ public class DiagonalSumOfTree {
 
     private static void findDiagonalSum(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
-        Map<Integer, Integer> map = new HashMap<>();
+        //The TreeMap provides guaranteed log(n) time cost for the containsKey, get, put and remove operations.
+        Map<Integer, Integer> map = new TreeMap<>();
         queue.add(root);
 
         while(!queue.isEmpty()){

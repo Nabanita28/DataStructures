@@ -1,6 +1,5 @@
-package tree.mustDo.mock.interviews;
+package tree.mock.interviews;
 
-import com.sun.source.tree.Tree;
 import tree.TreeNode;
 
 public class FindNodesAtKDistance {

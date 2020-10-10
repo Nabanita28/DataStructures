@@ -1,8 +1,4 @@
-package arrays;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+package arrays.mustDo;
 
 public class Palindrome {
 
@@ -10,17 +6,15 @@ public class Palindrome {
         System.out.println(isPalindrome("redivider"));
     }
 
-    public static boolean isPalindrome(String s){
+    public static boolean isPalindrome(String s) {
         boolean flag = true;
-        char[] arr = s.toCharArray();
         int i = 0;
-        int j = s.length() -1;
-        while(i<j){
-            if (arr[i] == arr[j]){
+        int j = s.length() - 1;
+        while (i < j) {
+            if (s.charAt(i) == s.charAt(j)) {
                 i++;
                 j--;
-            }
-            else{
+            } else {
                 flag = false;
                 break;
             }
