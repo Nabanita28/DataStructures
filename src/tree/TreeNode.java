@@ -8,12 +8,13 @@ public class TreeNode {
     public TreeNode root;
     public int hd;
     public TreeNode nextRight;
+    public int vd;
 
     public TreeNode(int key){
         this.key = key;
         this.left = null;
         this.right = null;
-        this.hd = 0;
+        this.hd = this.vd = 0;
         this.nextRight = null;
     }
 }

@@ -2,10 +2,7 @@ package tree.mustDo;
 
 import tree.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
-import java.util.TreeMap;
+import java.util.*;
 
 public class TreeViews {
 
@@ -28,6 +25,9 @@ public class TreeViews {
 
         System.out.println("Left view tree : ");
         printLeftViewTree(root, 1);
+        System.out.println();
+        System.out.println("Left view tree iterative way: ");
+        printLeftViewIterative(root);
 
         //resetting max level for right view
         max_level = 0;
@@ -57,8 +57,39 @@ public class TreeViews {
         printLeftViewTree(node.left, level+1);
         printLeftViewTree(node.right, level+1);
 
+    }
+
+
+    private static void printLeftViewIterative(TreeNode root) {
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+
+        root.vd = 0;
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode current = queue.remove();
+            int vd = current.vd;
+
+            if (!map.containsKey(vd)) {
+                map.put(vd, current.key);
+            }
+            if (current.left != null) {
+                current.left.vd = vd + 1;
+                queue.add(current.left);
+            }
+            if (current.right != null) {
+                current.right.vd = vd + 1;
+                queue.add(current.right);
+            }
         }
 
+        for (Map.Entry entry : map.entrySet()) {
+            System.out.print(entry.getValue() + " ");
+        }
+
+    }
 
     private static void printRightViewTree(TreeNode root, int level) {
         TreeNode node = root;
@@ -105,6 +136,7 @@ public class TreeViews {
         for(Map.Entry entry : map.entrySet()){
 
             System.out.print(entry.getValue() + " ");
+
 
         }
 

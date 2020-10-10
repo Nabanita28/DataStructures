@@ -2,8 +2,9 @@ package arrays.mustDo;
 
 public class ContinuousSubArray {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,3,7,5};
-        findContinuousSubArray(arr, 5);
+        int[] arr = new int[]{-2, -3, 4, -1, -2, 1, 5, -3};
+        findContinuousSubArray(arr, 6);
+        largestSumContiguousSubArray(arr);
     }
 
     private static void findContinuousSubArray(int[] arr, int sum) {
@@ -31,5 +32,21 @@ public class ContinuousSubArray {
 
         }
 
+    }
+
+    static void largestSumContiguousSubArray(int[] arr){
+        int max_so_far = Integer.MIN_VALUE;
+        int max_ends_here = 0;
+
+        for (int i=0; i<arr.length; i++){
+            max_ends_here = max_ends_here + arr[i];
+
+            if (max_ends_here > max_so_far)
+                max_so_far = max_ends_here;
+
+            if (max_ends_here < 0)
+                max_ends_here = 0;
+        }
+        System.out.println("Largest contiguous array sum " + max_so_far);
     }
 }
