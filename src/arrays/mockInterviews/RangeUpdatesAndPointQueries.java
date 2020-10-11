@@ -1,6 +1,7 @@
 package arrays.mockInterviews;
 
 public class RangeUpdatesAndPointQueries {
+    //TODO need to revisit
     public static void main(String[] args) {
         int[] arr = new int[5];
         int l = 3;
