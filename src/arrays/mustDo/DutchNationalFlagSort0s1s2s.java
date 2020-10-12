@@ -1,6 +1,6 @@
 package arrays.mustDo;
 
-public class Sort0s1s2s {
+public class DutchNationalFlagSort0s1s2s {
     public static void main(String[] args) {
         int[] arr = new int[]{0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
         sort0s1s2s(arr);
