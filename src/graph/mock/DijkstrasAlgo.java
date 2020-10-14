@@ -3,6 +3,7 @@ package graph.mock;
 import java.util.*;
 
 public class DijkstrasAlgo {
+    // TODO - revisit
     public static void main(String[] args) {
         DijkstrasGraph graph = new DijkstrasGraph(5);
 
@@ -43,6 +44,7 @@ public class DijkstrasAlgo {
     }
 
     private static void processNeighbours(DijkstrasGraph graph, Queue<VertexNode> priorityQueue, Set<Integer> sptSet, int[] dist, VertexNode currentNode) {
+
         ArrayList<VertexNode> adjacentVertices = graph.adj.get(currentNode.vertex);
 
         for (int i = 0; i < adjacentVertices.size(); i++) {
@@ -51,7 +53,7 @@ public class DijkstrasAlgo {
             if (!sptSet.contains(nextNode.vertex)) {
 
                 int edgeDistance = nextNode.cost;
-                int newDistance = dist[currentNode.vertex] + edgeDistance;
+                    int newDistance = dist[currentNode.vertex] + edgeDistance;
 
                 if (dist[nextNode.vertex] > newDistance) {
                     dist[nextNode.vertex] = newDistance;
