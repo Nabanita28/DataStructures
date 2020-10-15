@@ -9,6 +9,7 @@ public class MatrixRotation {
         rotateMatrix(arr);
     }
 
+    //first we swap diagonally
     private static void rotateMatrix(int[][] array) {
         int n = array.length;
         //1st rotation
@@ -31,7 +32,7 @@ public class MatrixRotation {
             System.out.println();
         }
 
-        //2nd rotation
+        //2nd rotation - then we swap parallel rows - left and right rows - matrix[row][col] with matrix[row][n-1-c] where n is the total no. of columns
         for (int i = 0; i < n; i++) {
             for (int c = 0; c < n/2; c++) {
                 int temp = array[i][c];

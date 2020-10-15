@@ -12,11 +12,23 @@ public class SpecialStack extends Stack {
         specialStack.push(15);
         specialStack.push(16);
 
-        System.out.println(specialStack.getMin());
-        System.out.println(specialStack.pop());
-        System.out.println(specialStack.getMin());
+        System.out.println("Original stack : ");
+        specialStack.stream().forEach(s-> System.out.print(s + " "));
+        System.out.println();
+        System.out.println("Min stack : ");
+        minStack.stream().forEach(s-> System.out.print(s + " "));
+
+        System.out.println("Get min: " + specialStack.getMin());
+        System.out.println("Pop :  " + specialStack.pop());
+        System.out.println("Pop : " + specialStack.pop());
+        System.out.println("Get min : " + specialStack.getMin());
+
+        specialStack.stream().forEach(s-> System.out.print(s + " "));
+        System.out.println();
+        System.out.println("Min stack : ");
+        minStack.stream().forEach(s-> System.out.print(s + " "));
     }
-    Stack<Integer> minStack = new Stack<>();
+    static Stack<Integer> minStack = new Stack<>();
     void push(int x){
         if (isEmpty()) {
             super.push(x);
