@@ -24,23 +24,23 @@ public class BinaryTreeToDoublyLinkedList {
 
     static TreeNode prev = null;
     static TreeNode head;
-    private static void binaryToDoublyLinkedList(TreeNode root) {
+    private static void binaryToDoublyLinkedList(TreeNode node) {
 
-        if (root == null)
+        if (node == null)
             return;
 
-        binaryToDoublyLinkedList(root.left);
+        binaryToDoublyLinkedList(node.left);
 
         if (prev == null){
-            //mark root as head
-            head = root;
+            //mark node as head
+            head = node;
         }
         else{
-            root.left = prev;
-            prev.right = root;
+            node.left = prev;
+            prev.right = node;
         }
-        prev = root;
+        prev = node;
 
-        binaryToDoublyLinkedList(root.right);
+        binaryToDoublyLinkedList(node.right);
     }
 }
