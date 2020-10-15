@@ -40,8 +40,13 @@ public class TreeViews {
         max_level = 0;
 
         System.out.println();
+        System.out.println("Top View Tree : ");
+        printTopView(root);
+
+        System.out.println();
         System.out.println("Bottom View Tree : ");
         printBottomViewTree(root, 0);
+
 
     }
 
@@ -50,12 +55,12 @@ public class TreeViews {
         if (node == null)
             return;
 
-        if(max_level < level) {
+        if (max_level < level) {
             System.out.print(node.key + " ");
             max_level = level;
         }
-        printLeftViewTree(node.left, level+1);
-        printLeftViewTree(node.right, level+1);
+        printLeftViewTree(node.left, level + 1);
+        printLeftViewTree(node.right, level + 1);
 
     }
 
@@ -63,7 +68,7 @@ public class TreeViews {
     private static void printLeftViewIterative(TreeNode root) {
 
         Queue<TreeNode> queue = new LinkedList<>();
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new TreeMap<>();
 
         root.vd = 0;
         queue.add(root);
@@ -96,13 +101,13 @@ public class TreeViews {
         if (node == null)
             return;
 
-        if (max_level < level){
+        if (max_level < level) {
             System.out.print(node.key + " ");
             max_level = level;
         }
 
-        printRightViewTree(node.right, level+1);
-        printRightViewTree(node.left, level+1);
+        printRightViewTree(node.right, level + 1);
+        printRightViewTree(node.left, level + 1);
 
     }
 
@@ -115,30 +120,64 @@ public class TreeViews {
         root.hd = level;
         queue.add(root);
 
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
 
             TreeNode current = queue.remove();
             int hd = current.hd;
 
             map.put(hd, current.key);
 
-            if (current.left != null){
+            if (current.left != null) {
                 current.left.hd = hd - 1;
                 queue.add(current.left);
             }
 
-            if (current.right != null){
+            if (current.right != null) {
                 current.right.hd = hd + 1;
                 queue.add(current.right);
             }
         }
 
-        for(Map.Entry entry : map.entrySet()){
+        map.entrySet().stream().forEach(s -> System.out.print(s.getValue() + " "));
 
-            System.out.print(entry.getValue() + " ");
+    }
 
+
+    /*                   1
+                      /     \
+                     2       3
+                    /  \    / \
+                   4    5  6   7
+      Top view of the above binary tree is
+      4 2 1 3 7*/
+    private static void printTopView(TreeNode root) {
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        Map<Integer, Integer> map = new TreeMap<>();
+
+        root.hd = 0;
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode current = queue.remove();
+            int hd = current.hd;
+
+            if (!map.containsKey(current.hd)) {
+                map.put(hd, current.key);
+            }
+
+            if (current.left != null) {
+                current.left.hd = hd - 1;
+                queue.add(current.left);
+            }
+
+            if (current.right != null) {
+                current.right.hd = hd + 1;
+                queue.add(current.right);
+            }
 
         }
 
+        map.entrySet().stream().forEach(s -> System.out.print(s.getValue() + " "));
     }
 }
