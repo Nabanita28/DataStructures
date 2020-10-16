@@ -2,6 +2,7 @@ package arrays.mockInterviews;
 
 public class Rotate90Degrees {
     public static void main(String[] args) {
+        //anticlockwise
         int[][] matrix = new int[][]{
                 {1,2,3,4},
                 {5,6,7,8},
