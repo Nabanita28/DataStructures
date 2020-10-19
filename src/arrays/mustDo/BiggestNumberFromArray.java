@@ -11,14 +11,10 @@ public class BiggestNumberFromArray {
 
     private static void findBiggestNumber(List<String> numbers) {
 
-        Collections.sort(numbers, new Comparator<String>() {
-            @Override
-            public int compare(String x, String y) {
-                String x1 = x + y;
-                String x2 = y + x;
+        Collections.sort(numbers,(x1, x2) -> {
                 return x1.compareTo(x2) > 0 ? -1 : 1;
             }
-        });
+        );
         System.out.println("The biggest number from the given array is : ");
         for (String s : numbers)
             System.out.print(s);
