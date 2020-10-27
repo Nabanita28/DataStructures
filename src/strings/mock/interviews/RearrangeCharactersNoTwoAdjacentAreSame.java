@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class RearrangeCharactersNoTwoAdjacentAreSame {
     public static void main(String[] args) {
-        String str = "aaaabc";
+        String str = "aaabc";
         rearrangeCharactersNoTwoAdjacentAreSame(str);
     }
 
@@ -23,6 +23,7 @@ public class RearrangeCharactersNoTwoAdjacentAreSame {
 
     private static void rearrangeCharactersNoTwoAdjacentAreSame(String str) {
         int capacity = str.length();
+        //We use a priority queue and put all characters and ordered by their frequencies (highest frequency character at root).
         Queue<Key> queue = new PriorityQueue<>(capacity, (key1, key2) -> {
             if (key1.freq < key2.freq) {
                 return 1;

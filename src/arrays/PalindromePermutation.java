@@ -5,9 +5,10 @@ import java.util.Map;
 
 public class PalindromePermutation {
     public static void main(String[] args) {
-        System.out.println(isPermutation("Taco cat"));
+        System.out.println(isPermutation("abba"));
     }
 
+    //Given a string, Check if characters of the given string can be rearranged to form a palindrome.
     public static boolean isPermutation(String s){
         char[] arr = s.toCharArray();
         Map<Character, Integer> m = new HashMap<>();
@@ -27,7 +28,7 @@ public class PalindromePermutation {
         int oddCharacterCount = 0;
         for(Map.Entry entry : m.entrySet()){
             System.out.println(entry.getKey() + ": " + entry.getValue());
-            if(!((int) entry.getValue() % 2 == 0)){
+            if((int) entry.getValue() % 2 != 0){
                 oddCharacterCount++;
                 if(oddCharacterCount > 1)
                     return false;

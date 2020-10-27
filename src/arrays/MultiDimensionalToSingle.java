@@ -3,6 +3,7 @@ package arrays;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class MultiDimensionalToSingle {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class MultiDimensionalToSingle {
     }
 
     private static void convertMultiDimensionalToSingleDimensionalSortedArray(int[][] arr) {
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        Queue<Integer> queue = new PriorityQueue<>();
         List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
