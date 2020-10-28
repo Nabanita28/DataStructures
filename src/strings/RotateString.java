@@ -1,11 +1,11 @@
-package arrays;
+package strings;
 
 public class RotateString {
 
     public static void main(String[] args) {
         String s1 = "waterbottle";
         String s2 = "erbottlewat";
-        isRotation(s1, s2);
+        System.out.println(isRotation(s1, s2));
     }
 
     private static boolean isRotation(String s1, String s2) {
@@ -17,6 +17,6 @@ public class RotateString {
     }
 
     private static boolean isSubstring(String s2, String s1s1) {
-        return true;
+        return s1s1.contains(s2);
     }
 }

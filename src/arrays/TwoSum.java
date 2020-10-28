@@ -1,14 +1,17 @@
 package arrays;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TwoSum {
     public static void main(String[] args) {
-        int[] nums = twoSum(new int[]{1,2,3,4,5,6,7}, 7);
+        int[] nums = twoSum(new int[]{5,6,7,2,1,4,3}, 7);
         for (int i=0; i<nums.length; i++){
-            System.out.println(nums[i]);
+            System.out.print(nums[i] + " ");
         }
     }
     //if array is sorted
-    private static int[] twoSum(int[] arr, int target) {
+   /*private static int[] twoSum(int[] arr, int target) {
         int j = arr.length - 1;
         for(int i = 0; i<arr.length; i++){
             if(arr[i] + arr[j] == target){
@@ -23,10 +26,10 @@ public class TwoSum {
         }
         throw new IllegalArgumentException("no two sum available");
     }
+*/
 
-
-    /*private static int[] twoSum(int[] nums, int target) {
-
+    private static int[] twoSum(int[] nums, int target) {
+        //Map of (value, index)
         Map<Integer, Integer> map = new HashMap<>();
         int compliment = 0;
         for(int i=0; i<nums.length; i++) {
@@ -38,7 +41,7 @@ public class TwoSum {
             map.put(nums[i], i);
         }
         throw new IllegalArgumentException("No two sum solution available");
-    }*/
+    }
     /*public static int[] twoSum(int[] nums, int target) {
         int[] arr = new int[2];
         for(int i = 0; i<nums.length; i++){

@@ -1,4 +1,4 @@
-package arrays;
+package strings.mustDo;
 
 public class StringPermutations {
     public static void main(String[] args) {
