@@ -11,43 +11,47 @@ public class CalculateMedian {
     }
 
     private static void calculateMedian(int[] medianArray) {
-
-        Queue<Double> smaller = new PriorityQueue<>(Collections.reverseOrder());
-        Queue<Double> larger = new PriorityQueue<>();
+        // max heap to store the leftMaxHeap half elements
+        Queue<Double> leftMaxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        //  min-heap to store the greater half elements
+        Queue<Double> rightMinHeap = new PriorityQueue<>();
 
         double median = medianArray[0];
         System.out.print("Median = " + median + " ");
-        smaller.add(median);
+
+        leftMaxHeap.add(median);
 
         for (int i = 1; i < medianArray.length; i++) {
+
             double x = medianArray[i];
-            if (smaller.size() > larger.size()) {
+
+            if (leftMaxHeap.size() > rightMinHeap.size()) {
                 if (x < median) {
-                    larger.add(smaller.poll());
-                    smaller.add(x);
+                    rightMinHeap.add(leftMaxHeap.poll());
+                    leftMaxHeap.add(x);
                 } else {
-                    larger.add(x);
+                    rightMinHeap.add(x);
                 }
-                median = (smaller.peek() + larger.peek()) / 2;
+                median = (leftMaxHeap.peek() + rightMinHeap.peek()) / 2;
                 System.out.print(median + " ");
-            } else if (smaller.size() == larger.size()) {
+            } else if (leftMaxHeap.size() == rightMinHeap.size()) {
                 if (x < median) {
-                    smaller.add(x);
-                    median = smaller.peek();
+                    leftMaxHeap.add(x);
+                    median = leftMaxHeap.peek();
                     System.out.print(median + " ");
                 } else {
-                    larger.add(x);
-                    median = larger.peek();
+                    rightMinHeap.add(x);
+                    median = rightMinHeap.peek();
                     System.out.print(median + " ");
                 }
             } else {
                 if (x > median) {
-                    smaller.add(larger.poll());
-                    larger.add(x);
+                    leftMaxHeap.add(rightMinHeap.poll());
+                    rightMinHeap.add(x);
                 } else {
-                    smaller.add(x);
+                    leftMaxHeap.add(x);
                 }
-                median = (smaller.peek() + larger.peek()) / 2;
+                median = (leftMaxHeap.peek() + rightMinHeap.peek()) / 2;
                 System.out.print(median + " ");
             }
         }

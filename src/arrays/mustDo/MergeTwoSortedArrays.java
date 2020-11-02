@@ -6,62 +6,36 @@ public class MergeTwoSortedArrays {
         int[] arr2 = new int[]{3,9};
         mergeSortedArrays(arr1,arr2);
     }
-    //TODO need to re-visit
 
     private static void mergeSortedArrays(int[] arr1, int[] arr2) {
-        int arr1Length = arr1.length;
-        int arr2Length = arr2.length;
-        int gap = arr1Length + arr2Length;
-        int i, j = 0;
-        for (gap = nextGap(gap); gap > 0; gap = nextGap(gap)) {
+        int n = arr1.length;
+        int m = arr2.length;
+        int[] arr3 = new int[n+m];
+        int i = 0, j = 0, k = 0;
 
-            //check first array
-            for (i = 0; i + gap < arr1Length; i++) {
-                //swap
-                if (arr1[i] > arr1[i+gap]) {
-                    int temp = arr1[i];
-                    arr1[i] = arr1[i + gap];
-                    arr1[i + gap] = temp;
-                }
-            }
-            //check both array
-            for (j = gap > arr1Length ? gap - arr1Length : 0; j < arr2Length && i < arr1.length; i++, j++) {
-                //swap
-                if (arr1[i] > arr2[j]) {
-                    int temp = arr1[i];
-                    arr1[i] = arr2[j];
-                    arr2[j] = temp;
-                }
-            }
-            if (j < arr2Length) {
-                for (j = 0; j + gap < arr2Length; j++) {
-                    //swap
-                    if (arr2[j] > arr2[j+gap]) {
-                        int temp = arr2[j];
-                        arr2[j] = arr2[gap + j];
-                        arr2[gap + j] = temp;
-                    }
-                }
-            }
+        // Traverse both array
+        while (i < n && j < m)
+        {
+            /*Check if current element of first array is smaller than current element
+            of second array. If yes, store first array element and increment first array
+            index. Otherwise do same with second array*/
+            if (arr1[i] < arr2[j])
+                arr3[k++] = arr1[i++];
+            else
+                arr3[k++] = arr2[j++];
         }
 
-        //print sorted arrays
-        System.out.print("First Array: ");
-        for (int arr1Num : arr1)
-            System.out.print(arr1Num + " ");
+        // Store remaining elements of first array
+        while (i < n)
+            arr3[k++] = arr1[i++];
 
-        System.out.println();
-        System.out.print("Second Array: ");
+        // Store remaining elements of second array
+        while (j < m)
+            arr3[k++] = arr2[j++];
 
-        for (int arr2Num : arr2)
-            System.out.print(arr2Num + " ");
+        //print the final array
+        System.out.println("Array after merging");
+        for (int p=0; p < n+m; p++)
+            System.out.print(arr3[p] + " ");
     }
-
-    private static int nextGap(int gap) {
-        if (gap<=1)
-            return 0;
-
-        return (gap/2) + (gap%2);
-    }
-
 }

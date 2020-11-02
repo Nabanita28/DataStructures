@@ -1,30 +1,12 @@
 package arrays.mustDo;
 
 public class FindLeaders {
+
+    //Write a program to print all the LEADERS in the array. An element is leader if it is greater than all the elements to its right side.
+    // And the rightmost element is always a leader. For example int the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
     public static void main(String[] args) {
         int[] arr = new int[]{16, 17, 4, 3, 5, 2};
         findLeadersInArray(arr);
-    }
-
-    // time complexity is O(n*n)
-    private static void findLeaders(int[] arr) {
-        System.out.print("Leaders in the given array are : " + arr[arr.length - 1]);
-        int i, j = 0;
-        for (i = 0; i < arr.length - 2; i++) {
-            j = arr.length - 2;
-
-            while (arr[i] > arr[j]) {
-                j--;
-            }
-            if (arr[i] < arr[j]) {
-                continue;
-            }
-            System.out.print(" " + arr[i]);
-        }
-
-        if (i == j && arr[i] > arr[arr.length - 1]) {
-            System.out.print(" " + arr[i]);
-        }
     }
 
     //time complexity is O(n)

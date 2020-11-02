@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class InfixToPostFix {
     public static void main(String[] args) {
+        //String s = "a+b*(c^d-e)^(f+g*h)-i";
         String s = "a+b*(c^d-e)^(f+g*h)-i";
         System.out.println(infixToPostfix(s));
     }
@@ -24,23 +25,32 @@ public class InfixToPostFix {
                 while(!stack.isEmpty() && '(' != stack.peek()){
                     result += stack.pop();
                 }
+                // If the scanned character is an ')', pop and output from the stack until an '(' is encountered.
                 if (!stack.isEmpty() && stack.peek() != '(')
                     return "Invalid Expression";
                 else
                 stack.pop();
 
             }
+           /* If the scanned character is an operator :
+            If the precedence of the scanned operator is greater than the precedence of the operator in the stack(or the stack is empty or the stack contains a ‘(‘ ), push it.
+            Else, Pop all the operators from the stack which are greater than or equal to in precedence than that of the scanned operator. After doing that Push the scanned operator to the stack.
+            (If you encounter parenthesis while popping then stop there and push the scanned operator in the stack.)
+           */
             else{
                 while(!stack.isEmpty() && precedence(c) <= precedence(stack.peek())){
-                    if(stack.peek() == '(')
+                    if(stack.peek() == '(') {
                         return "Invalid Expression";
+                    }
                     result += stack.pop();
                 }
                 stack.push(c);
             }
         }
         while (!stack.isEmpty()) {
-            if ('(' == stack.peek()) return "invalid expression";
+            if ('(' == stack.peek()) {
+                return "invalid expression";
+            }
             result += stack.pop();
         }
         return result;
