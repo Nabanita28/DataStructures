@@ -13,7 +13,7 @@ public class SquareRoot {
     private static double sqrtUtil(double left, double right, double x) {
 
         double mid = (left + right)/2;
-        double ans = -1;
+        double ans;
 
         if (mid*mid == x)
             return mid;
@@ -25,7 +25,6 @@ public class SquareRoot {
             ans = sqrtUtil(left, mid, x);
         else
             ans = sqrtUtil(mid, right, x);
-
 
         return ans;
     }

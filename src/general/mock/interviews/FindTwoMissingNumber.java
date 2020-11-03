@@ -16,7 +16,7 @@ public class FindTwoMissingNumber {
         for (int i = 0; i < length; i++) {
             xorVar = xorVar ^ arr[i];
         }
-
+        //As per the property of XOR, same elements will cancel out and we will be left with 2 XOR 4 = 6 (110). But we don’t know the exact numbers,let them be X and Y.
         int set_bit_no = xorVar ^ ~(xorVar - 1);
         int x = 0;
         int y = 0;

@@ -20,9 +20,7 @@ public class IdenticalTrees {
         if (rootA == null && rootB == null)
             return true;
 
-        if (rootA != null && rootB != null)
             return (rootA.key == rootB.key && checkIfIdentical(rootA.left, rootB.left) && checkIfIdentical(rootA.right, rootB.right));
 
-        return false;
     }
 }

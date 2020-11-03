@@ -90,9 +90,11 @@ public class TreeViews {
             }
         }
 
-        for (Map.Entry entry : map.entrySet()) {
+       /* for (Map.Entry entry : map.entrySet()) {
             System.out.print(entry.getValue() + " ");
-        }
+        }*/
+
+        map.entrySet().stream().forEach(entry -> System.out.println(entry.getValue()));
 
     }
 

@@ -22,7 +22,7 @@ public class ParentNodesSum {
                 node = queue.remove();
             if (node.left != null)
                 queue.add(node.left);
-            if (node.left != null)
+            if (node.right != null)
                 queue.add(node.right);
             if (node.left != null && node.left.key == value)
                 sum += node.key;

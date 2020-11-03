@@ -15,11 +15,13 @@ public class FirstNonRepeatingCharacter {
         Map<Character, Integer> charMap = new TreeMap<>();
 
         for (int i = 0; i < str.length(); i++) {
-            if (charMap.containsKey(str.charAt(i))) {
-                charMap.put(str.charAt(i), charMap.get(str.charAt(i)) + 1);
+          //  if (charMap.containsKey(str.charAt(i))) {
+                char item = str.charAt(i);
+                charMap.put(item, charMap.getOrDefault(item,0) + 1);
+                /*charMap.put(str.charAt(i), charMap.get(str.charAt(i)) + 1);
             } else {
-                charMap.put(str.charAt(i), 1);
-            }
+                charMap.put(str.charAt(i), 1);*/
+            //}
 
         }
         for (Map.Entry entry : charMap.entrySet()) {
