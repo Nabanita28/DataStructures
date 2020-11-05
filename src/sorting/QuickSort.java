@@ -36,7 +36,7 @@ public class QuickSort {
                 arr[i] = temp;
             }
         }
-        // swap arr[low+1] and pivot
+        // swap arr[i+1] and pivot
         int temp = arr[i + 1];
         arr[i + 1] = arr[high];
         arr[high] = temp;
