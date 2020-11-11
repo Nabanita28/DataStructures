@@ -30,7 +30,7 @@ public class BSFDirectionChangeAfter2Levels {
             for(int i=0; i<size; i++){
                 TreeNode temp = queue.remove();
 
-                if(rightToLeft == false)
+                if(!rightToLeft)
                     System.out.print(temp.key + " ");
                 else
                     stack.push(temp);
@@ -42,7 +42,7 @@ public class BSFDirectionChangeAfter2Levels {
 
             }
 
-            if(rightToLeft == true){
+            if(rightToLeft){
                 while(!stack.isEmpty()){
                     TreeNode tempStack = stack.pop();
                     System.out.print(tempStack.key + " ");

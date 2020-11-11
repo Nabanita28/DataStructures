@@ -6,29 +6,65 @@ import java.util.TreeMap;
 
 public class FirstNonRepeatingCharacter {
     public static void main(String[] args) {
-        String s = "rajeevranjan";
-        findFirstNonRepeatingCharacter(s);
+        String s = "cc";
+        System.out.println("First Non-Repeating Character is at index - " + firstUniqueChar(s));
     }
 
-    private static void findFirstNonRepeatingCharacter(String str) {
+    public static int firstUniqueChar(String s) {
 
-        Map<Character, Integer> charMap = new TreeMap<>();
-
-        for (int i = 0; i < str.length(); i++) {
-          //  if (charMap.containsKey(str.charAt(i))) {
-                char item = str.charAt(i);
-                charMap.put(item, charMap.getOrDefault(item,0) + 1);
-                /*charMap.put(str.charAt(i), charMap.get(str.charAt(i)) + 1);
-            } else {
-                charMap.put(str.charAt(i), 1);*/
-            //}
-
+        if(s.length() == 0){
+            return -1;
         }
-        for (Map.Entry entry : charMap.entrySet()) {
-            if (entry.getValue().equals(1)) {
-                System.out.println("First Non-Repeating Character is " + entry.getKey());
-                break;
+
+        createCountIndexHashMap(s);
+
+        int result = Integer.MAX_VALUE;
+        boolean flag = false;
+
+        for(Map.Entry<Character, CountIndex> entry : map.entrySet()){
+
+            int ind = entry.getValue().index;
+            int count = entry.getValue().count;
+            for(int i=0, j=0; i<26 && j<26; i++,j++){
+
             }
+            if(count == 1 && ind < result){
+                result = ind;
+                flag = true;
+            }
+        }
+
+        return flag ? result : -1;
+
+    }
+
+
+    static Map<Character, CountIndex> map = new HashMap<>();
+
+    public static void createCountIndexHashMap(String str){
+
+        for(int i=0; i<str.length(); i++){
+            char item = str.charAt(i);
+            if(map.containsKey(item)){
+                map.get(item).incCount();
+            }
+            else{
+                map.put(item, new CountIndex(i));
+            }
+        }
+    }
+
+    static class CountIndex{
+        int index;
+        int count;
+
+        public CountIndex(int index){
+            this.index = index;
+            this.count = 1;
+        }
+
+        public void incCount(){
+            this.count++;
         }
     }
 }
