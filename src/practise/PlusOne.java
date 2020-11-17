@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PlusOne {
     public static void main(String[] args) {
-        int[] digits = new int[]{0,0};
+        int[] digits = new int[]{0, 0};
         int[] result = plusOne(digits);
         Arrays.stream(result).forEach(s -> System.out.print(s + " "));
     }
@@ -21,8 +21,7 @@ public class PlusOne {
         number = number + 1;
         System.out.println(number);
 
-
-        if (number < 10) {
+        if (number < 10 && digits.length > 1) {
             s = '0' + String.valueOf(number);
         } else {
             s = String.valueOf(number);

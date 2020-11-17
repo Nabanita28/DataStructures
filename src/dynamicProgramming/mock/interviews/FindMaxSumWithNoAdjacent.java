@@ -5,7 +5,7 @@ public class FindMaxSumWithNoAdjacent {
         int[] arr = new int[]{3, 2, 7, 10};
         findMaxSum(arr);
     }
-
+    ///Maximum money 
     private static void findMaxSum(int[] arr) {
         int n = arr.length;
         int[] sum = new int[n];
