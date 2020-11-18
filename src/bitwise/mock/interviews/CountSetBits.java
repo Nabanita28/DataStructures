@@ -16,11 +16,8 @@ public class CountSetBits {
                 int result = number & m;
                 if (result == 1) {
                     count++;
-                    number = number >> 1;
-                }else {
-                    number = number >> 1;
-                    continue;
                 }
+                    number = number >> 1;
             }
             n--;
         }
