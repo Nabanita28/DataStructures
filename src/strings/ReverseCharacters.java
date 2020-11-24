@@ -3,7 +3,7 @@ package strings;
 public class ReverseCharacters {
 
     public static void main(String[] args) {
-        System.out.println(reverseInteger(-123));
+        System.out.println(reverseInteger(159));
     }
 
     public static int reverseInteger(int x) {

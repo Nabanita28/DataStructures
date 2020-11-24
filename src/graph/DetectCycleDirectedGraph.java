@@ -40,8 +40,8 @@ public class DetectCycleDirectedGraph {
 
         List<Integer> adjacentVertices = graph.adj.get(i);
 
-        for (Integer c : adjacentVertices){
-            if (isCyclicUtil(c, visited, recStack)){
+        for (Integer vertex : adjacentVertices){
+            if (isCyclicUtil(vertex, visited, recStack)){
                 return true;
             }
         }

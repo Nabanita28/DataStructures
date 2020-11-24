@@ -1,6 +1,6 @@
-package arrays.mockInterviews;
+package searching;
 
-public class NumberOfOccurences {
+public class NumberOfOccurrences {
     public static void main(String[] args) {
         int[] arr = new int[]{1,1,2,2,2,2,3};
         System.out.println(count(arr, arr.length, 2));

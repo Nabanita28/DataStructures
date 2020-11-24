@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class FirstNonRepeatingCharacter {
+    // Easier solution
+    // https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
     public static void main(String[] args) {
         String s = "cc";
         System.out.println("First Non-Repeating Character is at index - " + firstUniqueChar(s));

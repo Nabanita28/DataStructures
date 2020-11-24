@@ -26,7 +26,7 @@ public class WaterSupplyProblem {
 
         for (int i = 0 ; i< graph.v; i++){
             if (!visited[i] && blocked[i] == 0){
-                bfs(1, visited, graph);
+                bfs(i, visited, graph);
                 count++;
             }
         }

@@ -25,14 +25,21 @@ public class FindNodesAtKDistance {
             findNodesAtkDistanceFromGivenTargetDown(root, k);
             return 1;
         }
-
+        // Recur for left subtree
         int dl = findNodesAtkDistanceFromGivenTarget(root.left, target, k);
-
+        // Check if target node was found in left subtree
         if (dl != -1) {
+
+            // If root is at distance k from target, print root
+            // Note that dl is Distance of root's left child from
+            // target
             if (dl == k) {
                 System.out.println(root.key);
             } else
+                // Else go to right subtree and print all k-dl-1 distant nodes
+                // Note that the right child is 2 edges away from left child
                 findNodesAtkDistanceFromGivenTargetDown(root.right, k - dl -1);
+            // Add 1 to the distance and return value for parent calls
             return dl + 1;
         }
 

@@ -13,6 +13,7 @@ public class PrintAllAnagrams {
 
     private static final int ALPHABET_SIZE = 26;
 
+    //Trie Structure
     static class TrieNode{
         boolean isEndOfWord;
         List<Integer> head;
@@ -27,6 +28,7 @@ public class PrintAllAnagrams {
         }
     }
 
+    // insert key into Trie data structure
     static TrieNode insert(TrieNode root, String key, int originalIndex){
         TrieNode node = root;
         for(int i=0; i<key.length(); i++){
@@ -43,6 +45,7 @@ public class PrintAllAnagrams {
         return root;
     }
 
+    //in this method, we insert the keys into Trie and print them all the anagrams together
     static TrieNode printAnagrams(String[] wordsArr){
         int len = wordsArr.length;
 

@@ -7,6 +7,7 @@ public class ShortestPathToReachOnePrimeToAnother {
         System.out.print("Shortest Path To Reach One Prime To Another : " + findShortestPathBetweenOnePrimeToAnother(1033, 8179));
     }
     static List<Integer> primeNumbers = findPrime(9999);
+
     private static int findShortestPathBetweenOnePrimeToAnother(int n1, int n2) {
 
         Graph g = new Graph(primeNumbers.size());
@@ -66,7 +67,7 @@ public class ShortestPathToReachOnePrimeToAnother {
 
             for (Map.Entry entry : map.entrySet()) {
                 if ("UNMARKED".equalsIgnoreCase(entry.getValue().toString())){
-                    int number = Integer.parseInt(entry.getKey().toString());
+                    int number = (int)entry.getKey();
                    if(number >= 1000 && number <= 9999){
                        primeNumbers.add(number);
                    }

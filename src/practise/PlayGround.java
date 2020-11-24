@@ -1,23 +1,36 @@
 package practise;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PlayGround {
     public static void main(String[] args) {
-        String s = "I am the best-developer";
+        long start = System.nanoTime();
 
-        String[] input = s.split(" ");
-        Arrays.stream(input).forEach(item-> System.out.print(item + " "));
+        System.out.println(fibonaci(25));
 
-        String[] input2 = s.split("\\W");
-        Arrays.stream(input2).forEach(item-> System.out.print(item + " "));
+        long end = System.nanoTime();
 
-        System.out.println("\n------------------\n");
-        System.out.println(String.join(",", input));
-        System.out.println(String.join(",", input2));
-
+        System.out.println(end - start);
     }
 
+    static Map<Integer, Long> alreadyCalculated = new HashMap<>();
+
+    static long fibonaci(int n) {
+
+        if (n <= 1){
+            return n;
+        }
+
+        if(alreadyCalculated.containsKey(n)){
+            return alreadyCalculated.get(n);
+        }
 
 
+        long answer = fibonaci(n-1) + fibonaci(n-2);
+        System.out.print( n + " ");
+        alreadyCalculated.put(n, answer);
+
+        return answer;
+    }
 }

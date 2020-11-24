@@ -35,25 +35,24 @@ public class NutsAndBolts {
 
     private static int partition(char[] arr, int low, int high, char pivot) {
 
-        int i = low;
+        int i = low - 1;
+        //int pivot = arr[high];
 
-        for(int j=low; j<high; j++){
-            if(arr[j] < pivot){
-                char temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+        for (int j = low; j < high; j++) {
+
+            if (arr[j] < pivot) {
                 i++;
-            } else if(arr[j] == pivot){
                 char temp = arr[j];
-                arr[j] = arr[high];
-                arr[high] = temp;
-                j--;
+                arr[j] = arr[i];
+                arr[i] = temp;
             }
         }
+        // swap arr[i+1] and pivot
+        char temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
 
-        char temp = arr[high];
-        arr[high] = arr[i];
-        arr[i] = temp;
-        return i;
+        //return the partition;
+        return i + 1;
     }
 }

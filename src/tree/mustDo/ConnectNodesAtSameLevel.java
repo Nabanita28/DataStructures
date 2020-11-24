@@ -3,6 +3,8 @@ package tree.mustDo;
 import tree.TreeNode;
 
 public class ConnectNodesAtSameLevel {
+
+    // easy solution https://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root = new TreeNode(10);
