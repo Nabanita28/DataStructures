@@ -35,9 +35,9 @@ public class Person {
    public int hashCode(){
         int result = 0;
 
-        result = 73*result + id;
-        result = 73*result + (this.name != null ? this.name.hashCode() : 0);
-        result = 73*result + (this.date != null ? this.date.hashCode() : 0);
+        result = 31*result + id;
+        result = 31*result + (this.name != null ? this.name.hashCode() : 0);
+        result = 31*result + (this.date != null ? this.date.hashCode() : 0);
 
         return result;
    }
