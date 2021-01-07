@@ -12,24 +12,22 @@ public class InfixToPostFix {
     private static String infixToPostfix(String s) {
         Stack<Character> stack = new Stack<>();
         String result = "";
-        for(int i =0; i<s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
 
-            if(Character.isLetterOrDigit(c)) {
+            if (Character.isLetterOrDigit(c)) {
                 result += c;
-            }
-            else if (c == '(') {
+            } else if (c == '(') {
                 stack.push(c);
-            }
-            else if (c == ')'){
-                while(!stack.isEmpty() && '(' != stack.peek()){
+            } else if (c == ')') {
+                while (!stack.isEmpty() && '(' != stack.peek()) {
                     result += stack.pop();
                 }
                 // If the scanned character is an ')', pop and output from the dataStructuresPractice.stack until an '(' is encountered.
                 if (!stack.isEmpty() && stack.peek() != '(')
                     return "Invalid Expression";
                 else
-                stack.pop();
+                    stack.pop();
 
             }
            /* If the scanned character is an operator :
@@ -37,9 +35,9 @@ public class InfixToPostFix {
             Else, Pop all the operators from the dataStructuresPractice.stack which are greater than or equal to in precedence than that of the scanned operator. After doing that Push the scanned operator to the dataStructuresPractice.stack.
             (If you encounter parenthesis while popping then stop there and push the scanned operator in the dataStructuresPractice.stack.)
            */
-            else{
-                while(!stack.isEmpty() && precedence(c) <= precedence(stack.peek())){
-                    if(stack.peek() == '(') {
+            else {
+                while (!stack.isEmpty() && precedence(c) <= precedence(stack.peek())) {
+                    if (stack.peek() == '(') {
                         return "Invalid Expression";
                     }
                     result += stack.pop();
@@ -57,10 +55,10 @@ public class InfixToPostFix {
 
     }
 
-    private static int precedence(int n){
-        switch (n){
-            case '+' :
-            case '-' :
+    private static int precedence(int n) {
+        switch (n) {
+            case '+':
+            case '-':
                 return 1;
             case '*':
             case '/':
