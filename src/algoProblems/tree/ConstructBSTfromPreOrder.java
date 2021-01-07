@@ -23,14 +23,18 @@ public class ConstructBSTfromPreOrder {
         for(int i=1; i<size; i++){
 
             TreeNode current = null;
+            // Keep on popping while the next value in the preOrder array is greater than stack's top value.
             while(!stack.isEmpty() && preOrder[i] > stack.peek().key){
                 current = stack.pop();
             }
 
             if(current != null){
+                //Make this greater value as the right child and push it to the stack
                 current.right = new TreeNode(preOrder[i]);
                 stack.push(current.right);
             } else{
+                // If the next value is less than the stack's top value, make this value as the left child of the
+                // stack's top node. Push the new node to stack
                 current = stack.peek();
                 current.left = new TreeNode(preOrder[i]);
                 stack.push(current.left);
