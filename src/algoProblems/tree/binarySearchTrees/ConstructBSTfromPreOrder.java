@@ -1,4 +1,4 @@
-package algoProblems.tree;
+package algoProblems.tree.binarySearchTrees;
 
 import dataStructuresPractice.tree.TreeNode;
 
