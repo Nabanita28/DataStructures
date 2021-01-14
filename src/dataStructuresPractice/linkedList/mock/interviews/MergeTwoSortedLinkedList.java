@@ -3,7 +3,7 @@ package dataStructuresPractice.linkedList.mock.interviews;
 import dataStructuresPractice.linkedList.LinkedList;
 import dataStructuresPractice.linkedList.Node;
 
-public class MergeTwoSortedLinkedList {
+public class   MergeTwoSortedLinkedList {
 
     public static void main(String[] args) {
         Node zero = new Node(0);
