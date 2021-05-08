@@ -1,6 +1,6 @@
 package dataStructuresPractice.bitwise;
 
-public class binaryNumberCount {
+public class BinaryNumberCount {
     public static void main(String[] args){
         int num = 3;
         System.out.println("number with no consecutive 1 = " + countWithNoConsecutiveOnes(num));

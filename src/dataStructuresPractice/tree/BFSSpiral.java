@@ -21,7 +21,7 @@ public class BFSSpiral {
         while(!s1.isEmpty() || !s2.isEmpty()){
             while(!s1.isEmpty()){
                 TreeNode temp = s1.pop();
-                System.out.println(temp.key);
+                System.out.print(temp.key + " ");
                 if(temp.left != null)
                     s2.push(temp.left);
                 if(temp.right != null)
@@ -31,7 +31,7 @@ public class BFSSpiral {
 
             while(!s2.isEmpty()){
                 TreeNode temp = s2.pop();
-                System.out.println(temp.key);
+                System.out.print(temp.key + " ");
                 if(temp.right != null)
                     s1.push(temp.right);
                 if(temp.left != null)
