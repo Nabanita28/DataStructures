@@ -1,4 +1,4 @@
-package dataStructuresPractice.arrays.mockInterviews;
+package dataStructuresPractice.strings.mustDo;
 
 public class HaystackNeedle {
     public static void main(String[] args) {

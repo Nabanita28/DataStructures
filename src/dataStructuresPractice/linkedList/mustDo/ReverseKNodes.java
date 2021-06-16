@@ -21,7 +21,7 @@ public class ReverseKNodes {
         fifthNode.next = sixthNode;
 
         LinkedList.printList(list.head);
-        Node latestHead = reverse(list.head, 4);
+        Node latestHead = reverse(list.head, 2);
         LinkedList.printList(latestHead);
     }
 

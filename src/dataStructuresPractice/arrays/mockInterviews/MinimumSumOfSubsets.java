@@ -4,33 +4,51 @@ import java.util.*;
 
 public class MinimumSumOfSubsets {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,6,11,5};
-        findMinimumSumOfSubsets(arr);
+        int[] arr = new int[]{1, 6, 5, 11};
+        System.out.println(findMinimumSumOfSubsets(arr, arr.length));
     }
 
-    private static void findMinimumSumOfSubsets(int[] arr) {
-        int sum1 = 0;
-        int sum2 = 0;
-        List<Integer> sumArr1 = new ArrayList<>();
-        List<Integer> sumArr2 = new ArrayList<>();
+    //Partition a set into two subsets such that the difference of subset sums is minimum
+    private static int findMinimumSumOfSubsets(int[] arr, int n) {
+        {
+            int sum = 0;
 
-     Arrays.sort(new int[][]{arr}, Collections.reverseOrder());
+            for (int i = 0; i < n; i++) {
+                sum = sum + arr[i];
+            }
 
-     for (int i=0; i<arr.length; i++){
-         if (sum1 < sum2){
-             sum1 = sum1 + arr[i];
-             sumArr1.add(arr[i]);
+            boolean[][] dp = new boolean[n + 1][sum + 1];
 
-         }else{
-             sum2 = sum2 + arr[i];
-             sumArr2.add(arr[i]);
-         }
-     }
-        System.out.println("Minimum sum of subsets is : " + Math.abs(sum1-sum2));
-        System.out.print("Subset 1 = ");
-        sumArr1.forEach(value -> System.out.print(value + " "));
-        System.out.println();
-        System.out.print("Subset 2 = ");
-        sumArr2.forEach(s -> System.out.print(s + " "));
+            for (int i = 0; i <= n; i++) {
+                dp[0][i] = false;
+            }
+
+            for (int i = 0; i <= n; i++) {
+                dp[i][0] = true;
+            }
+
+
+            for (int i = 1; i <= n; i++) {
+                for (int j = 1; j <= sum; j++) {
+
+                    dp[i][j] = dp[i - 1][j];
+                    if (j >= arr[i - 1]) {
+                        dp[i][j] = dp[i - 1][j] || dp[i - 1][j - arr[i - 1]];
+                    }
+                }
+            }
+            //find min sum - diff = abs(s2 - s1); => abs(sum - s1 - s1); => abs(sum - 2s1); s2 <= s2
+            int minDiff = Integer.MAX_VALUE;
+            for (int i = 0; i <= sum / 2; i++) {
+                int first = i;
+                int second = sum - i;
+                if (dp[n][i] == true && minDiff > Math.abs(first - second)) {
+                    minDiff = Math.abs(second - first);
+                }
+
+            }
+            return minDiff;
+
+        }
     }
 }

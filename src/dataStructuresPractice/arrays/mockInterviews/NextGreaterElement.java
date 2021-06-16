@@ -17,12 +17,8 @@ public class NextGreaterElement {
         }
 
         if (i == 0) {
-            Integer[] numberArray = new Integer[nums.length];
-            for (int k = 0; k < nums.length; k++) {
-                numberArray[k] = nums[k];
-            }
-            Arrays.sort(numberArray);
-            Arrays.stream(numberArray).forEach(s -> System.out.print(s + " "));
+            Arrays.sort(nums);
+            Arrays.stream(nums).forEach(s -> System.out.print(s + " "));
             return;
         }
 

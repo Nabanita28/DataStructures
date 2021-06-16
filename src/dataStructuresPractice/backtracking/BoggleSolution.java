@@ -40,7 +40,7 @@ public class BoggleSolution {
 
             // Erase current character from string and mark visited
             // of current cell as false
-            str = "" + str.charAt(str.length() - 1);
+           // str = "" + str.charAt(str.length() - 1);
             visited[i][j] = false;
         }
 
