@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class BSFDirectionChangeAfter2Levels {
+public class    BSFDirectionChangeAfter2Levels {
 
     public static void main(String[] args) {
         TreeNode root = BasicTreeFunctions.createTree();

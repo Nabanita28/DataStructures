@@ -4,19 +4,19 @@ import dataStructuresPractice.linkedList.Node;
 
 public class AddNumbersRepByLinkedList {
     public static void main(String[] args) {
-        Node firstNode = new Node(5);
-        Node secondNode = new Node(6);
-        Node thirdNode = new Node(3);
+        Node firstNode = new Node(9);
+        Node secondNode = new Node(9);
+        Node thirdNode = new Node(9);
         Node head1 = firstNode;
         firstNode.next = secondNode;
         secondNode.next = thirdNode;
 
-        Node fourthNode = new Node(8);
-        Node fifthNode = new Node(4);
-        Node sixthNode = new Node(2);
+        Node fourthNode = new Node(9);
+        Node fifthNode = new Node(9);
+  //      Node sixthNode = new Node(9);
         Node head2 = fourthNode;
         fourthNode.next = fifthNode;
-        fifthNode.next = sixthNode;
+       // fifthNode.next = sixthNode;
 
         addTwoNumbersRepByLinkedList(head1, head2);
     }

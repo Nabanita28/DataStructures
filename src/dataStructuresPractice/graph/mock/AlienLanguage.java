@@ -48,11 +48,11 @@ public class AlienLanguage {
             System.out.print((char) ('a' + stack.pop()) + " ");
     }
 
-    private static void topologicalSortUtil(int k, boolean[] visited, Stack<Integer> stack, Graph graph) {
+    private static void topologicalSortUtil(int vertex, boolean[] visited, Stack<Integer> stack, Graph graph) {
 
-        visited[k] = true;
+        visited[vertex] = true;
 
-        ArrayList<Integer> adjacentVertices = graph.adj.get(k);
+        ArrayList<Integer> adjacentVertices = graph.adj.get(vertex);
         for (int a = 0; a < adjacentVertices.size(); a++) {
             int nextVertex = adjacentVertices.get(a);
 
@@ -60,6 +60,6 @@ public class AlienLanguage {
                 topologicalSortUtil(nextVertex, visited, stack, graph);
             }
         }
-        stack.push(k);
+        stack.push(vertex);
     }
 }

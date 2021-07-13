@@ -27,7 +27,7 @@ public class TopKFrequent {
             }
         }
 
-        Map<Integer, Integer>  sortedMap = map.entrySet().stream().sorted((i1, i2) -> i2.getValue().compareTo(i1.getValue()))
+        Map<Integer, Integer>  sortedMap = map.entrySet().stream().sorted((i1, i2) ->  i2.getValue().compareTo(i1.getValue()))
                 .collect(Collectors.toMap(Map.Entry::getKey,
                         Map.Entry::getValue,
                         (e1, e2) -> e1, LinkedHashMap::new));

@@ -47,7 +47,6 @@ public class ReverseAlternateKNodes {
             current = next;
             count++;
         }
-
         if(A != null){
             A.next = current;
         }
