@@ -2,7 +2,7 @@ package dataStructuresPractice.strings.mustDo;
 
 public class RomanToInteger {
     public static void main(String[] args) {
-        String romanNumber = "MCMIV";
+        String romanNumber = "MDCXCV";
         System.out.println(romanToInteger(romanNumber));
     }
 
