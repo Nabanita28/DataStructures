@@ -2,9 +2,9 @@ package dataStructuresPractice.trie;
 
 public class Trie {
 //the memory requirements of Trie is O(ALPHABET_SIZE * key_length * N) where N is number of keys in Trie
-    static  TrieNode root;
+    public static  TrieNode root;
 
-   static   class TrieNode{
+    public static   class TrieNode{
         boolean isEndOfLine;
         TrieNode[] children;
        static private final int ALPHABET_SIZE = 26;
@@ -17,13 +17,12 @@ public class Trie {
             }
         }
 
-
     public void insert(String key){
         int length = key.length();
         TrieNode current = root;
 
         for(int i = 0; i<length; i++){
-            int index = key.charAt(i) - 'a';
+            int index = key.charAt(i) - 'A';
             if(current.children[index] == null){
                 current.children[index] = new TrieNode();
             }
@@ -39,7 +38,7 @@ public class Trie {
         TrieNode current = root;
 
         for(int level = 0; level<length; level++){
-            int index = key.charAt(level) - 'a';
+            int index = key.charAt(level) - 'A';
             if(current.children[index] == null){
                 return false;
             }
