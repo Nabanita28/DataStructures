@@ -36,7 +36,7 @@ public class MergeTwoSortedLinkedList {
     }
 
     private static Node mergeTwoSortedLinkedList(Node head1, Node head2) {
-
+//time complexity - O(n+m)
         Node head = new Node();
         Node tail = head;
 
