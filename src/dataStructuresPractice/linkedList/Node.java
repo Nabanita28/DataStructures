@@ -14,4 +14,7 @@ public class Node {
         this.input = input;
         this.next = null;
     }
+
+    public Node() {
+    }
 }
