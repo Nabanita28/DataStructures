@@ -21,31 +21,32 @@ public class ReverseKNodes {
         fifthNode.next = sixthNode;
 
         LinkedList.printList(list.head);
-        Node latestHead = reverse(list.head, 2);
+        Node latestHead = reverseKGroup(list.head, 2);
         LinkedList.printList(latestHead);
     }
-
-    private static Node reverse(Node head, int k) {
+//time complexity - O(n), space complexity - O(n/k)
+    private static Node reverseKGroup(Node head, int k) {
 
         Node current = head;
-        Node prev = null;
-        Node next = null;
         int count = 0;
 
-        while (count < k && current != null) {
-
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
+        while(count != k && current != null){
+            current = current.next;
             count++;
-
         }
+        //we found the k+1th node
+        if(count == k){
+            current = reverseKGroup(current, k);
 
-        if (next != null) {
-            head.next = reverse(next, k);
+            while(count-- > 0){
+                Node temp = head.next;
+                head.next = current;
+                current = head;
+                head = temp;
+            }
+            //pont head back to current
+            head = current;
         }
-
-        return prev;
+        return head;
     }
 }
