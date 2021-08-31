@@ -25,7 +25,7 @@ public class RemoveDuplicateAdjacentChars {
             removeUtil(str, lastRemoved);
         }
         // At this point, the first
-        // character is definiotely different
+        // character is definitely different
         // from its adjacent. Ignore first
         // character and recursively
         // remove characters from remaining string
