@@ -16,27 +16,26 @@ public class DiameterOfATree {
         System.out.println("Diameter of the dataStructuresPractice.tree is : " + findDiameter(root));
     }
 
-    static class Height{
-        int h = Integer.MIN_VALUE;
-    }
+    static int max = Integer.MIN_VALUE;
 
     private static int findDiameter(TreeNode root) {
-        Height height = new Height();
-        diameter(root, height);
-        return height.h;
+        calculateDiameter(root);
+        return max;
     }
 
-    private static int diameter(TreeNode root, Height height) {
+    private static int calculateDiameter(TreeNode root){
 
-        if (root == null){
-            height.h = 0;
+        //base case
+        if(root == null){
             return 0;
         }
 
-        int left_height = diameter(root.left, height);
-        int right_height = diameter(root.right, height);
+        int leftHeight = calculateDiameter(root.left);
+        int rightHeight = calculateDiameter(root.right);
 
-        height.h = Math.max(height.h, left_height+right_height+1);
-        return 1 + Math.max(left_height, right_height);
+        max = Math.max(max, leftHeight+rightHeight);
+
+        return 1 + Math.max(leftHeight, rightHeight);
+
     }
 }
