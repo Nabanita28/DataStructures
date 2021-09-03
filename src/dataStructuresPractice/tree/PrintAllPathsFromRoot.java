@@ -17,6 +17,8 @@ public class PrintAllPathsFromRoot {
 
         List<String> paths = binaryTreePaths(root);
         paths.stream().forEach(path -> System.out.println(path));
+
+        System.out.println(checkIfSumIsPresent(root, 3));
     }
 
     static  public List<String> binaryTreePaths(TreeNode root) {
@@ -32,7 +34,7 @@ public class PrintAllPathsFromRoot {
             return;
         }
 
-        path = path + "->" + String.valueOf(root.key);
+        path = path + "->" + root.key;
 
         if(root.left == null && root.right == null){
             paths.add(path.substring(2));
@@ -41,5 +43,24 @@ public class PrintAllPathsFromRoot {
             generatePaths(root.right, paths, path);
         }
 
+    }
+
+    static private boolean checkIfSumIsPresent(TreeNode root, int sum) {
+
+        if (sum == 0) {
+            return true;
+        } else {
+
+            int remainingSum = sum - root.key;
+
+            if ((root.left != null && root.right != null) || (root.left == null && root.right == null)) {
+                return checkIfSumIsPresent(root.left, remainingSum) || checkIfSumIsPresent(root.right, remainingSum);
+            }
+            else if(root.left != null){
+                return checkIfSumIsPresent(root.left, remainingSum);
+            }else{
+                return checkIfSumIsPresent(root.right, remainingSum);
+            }
+        }
     }
 }
