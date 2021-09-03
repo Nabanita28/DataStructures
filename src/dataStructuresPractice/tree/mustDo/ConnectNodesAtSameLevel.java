@@ -2,6 +2,9 @@ package dataStructuresPractice.tree.mustDo;
 
 import dataStructuresPractice.tree.TreeNode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class ConnectNodesAtSameLevel {
 
     // easy solution https://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/
@@ -12,7 +15,8 @@ public class ConnectNodesAtSameLevel {
         root.right = new TreeNode(2);
         root.left.left = new TreeNode(3);
         root.right.right = new TreeNode(90);
-        connect(root);
+        //connect(root);
+        fillNextSibling(root);
         System.out.println(root.left.nextRight.key);
         System.out.print("nextRight of node 3 is ");
         System.out.print(root.left.left.nextRight != null ?
@@ -62,5 +66,38 @@ public class ConnectNodesAtSameLevel {
             temp = temp.nextRight;
         }
         return null;
+    }
+
+    private static TreeNode fillNextSibling(TreeNode root) {
+
+        Queue<TreeNode> nodesQueue = new LinkedList<>();
+        nodesQueue.add(root);
+        nodesQueue.add(null);
+
+        while (!nodesQueue.isEmpty()) {
+            TreeNode current = nodesQueue.remove();
+            if (current == null) {
+                if (!nodesQueue.isEmpty()) {
+                    nodesQueue.add(null);
+                }
+            } else {
+                if (nodesQueue.peek() != null) {
+                    current.nextRight = nodesQueue.peek();
+                } else {
+                    current.nextRight = null;
+                }
+
+
+                if (current.left != null) {
+                    nodesQueue.add(current.left);
+                }
+                if (current.right != null) {
+                    nodesQueue.add(current.right);
+                }
+            }
+
+
+        }
+        return root;
     }
 }
