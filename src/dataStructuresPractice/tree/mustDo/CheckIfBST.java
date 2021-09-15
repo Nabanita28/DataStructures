@@ -21,19 +21,21 @@ public class CheckIfBST {
         System.out.println(checkIfBST(root));
     }
 
-    private static boolean checkIfBST(TreeNode root) {
+    static public boolean checkIfBST(TreeNode root) {
+        return isBSTUtil(root, null, null);
+    }
 
-        if (root == null)
+    static boolean isBSTUtil(TreeNode root, Integer min, Integer max){
+
+        if(root == null){
             return true;
+        }
 
-        if (root.left != null && root.left.key > root.key )
+        if((min != null && root.key <= min) || (max != null && root.key >= max)){
             return false;
+        }
 
-        if (root.right != null && root.right.key < root.key)
-            return false;
-
-        return  checkIfBST(root.left) && checkIfBST(root.right);
-
+        return isBSTUtil(root.left, min, root.key) && isBSTUtil(root.right, root.key, max);
     }
 
 }
