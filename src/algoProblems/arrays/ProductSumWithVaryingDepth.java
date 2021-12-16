@@ -1,4 +1,4 @@
-package algoProblems;
+package algoProblems.arrays;
 
 import java.util.Stack;
 
