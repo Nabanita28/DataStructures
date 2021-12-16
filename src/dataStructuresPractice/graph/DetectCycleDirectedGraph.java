@@ -28,7 +28,7 @@ public class DetectCycleDirectedGraph {
     }
 
     private static boolean isCyclicUtil(int i, boolean[] visited, boolean[] recStack) {
-
+// If a vertex is reached that is already in the recursion stack, then there is a cycle in the tree. 
         if (visited[i])
             return true;
 

@@ -21,8 +21,8 @@ public class TestAbstractChild extends TestAbstract{
 
     public static void main(String[] args) {
         TestAbstractChild child = new TestAbstractChild();
-        TestAbstract parent = child;
-        TestAbstract classA = new TestAbstract();
+        TestAbstract parent = new TestAbstractChild();
+      //  TestAbstract classA = new TestAbstract();
 
         if(parent instanceof TestAbstractChild){
             ((TestAbstractChild)parent).m2();

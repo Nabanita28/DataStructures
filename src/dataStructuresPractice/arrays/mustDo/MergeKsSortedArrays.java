@@ -26,11 +26,12 @@ public class MergeKsSortedArrays {
 
             result.add(ac.array[ac.index]);
 
-            if(ac.index < ac.array.length-1)
-                minHeap.add(new ArrayContainer(ac.array, ac.index+1));
+            if(ac.index < ac.array.length-1) {
+                ac.index = ac.index + 1;
+                minHeap.add(ac);
+            }
 
         }
-
         return result;
 
     }
