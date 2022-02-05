@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MergeKsSortedArrays {
     public static void main(String[] args) {
-        int[] arr1 = { 1, 3, 5, 7 };
+        int[] arr1 = { 1, 3};
         int[] arr2 = { 2, 4, 6, 8 };
         int[] arr3 = { 0, 9, 10, 11 };
 
@@ -13,6 +13,7 @@ public class MergeKsSortedArrays {
     }
     public static ArrayList<Integer> mergeKSortedArray(int[][] arr, int K)
     {
+        //Time Complexity :O( n * k * log k), Insertion and deletion in a Min Heap requires log k time. So the Overall time complexity is O( n * k * log k)
         Queue<ArrayContainer> minHeap = new PriorityQueue<>();
 
         for(int i=0; i<arr.length; i++){
