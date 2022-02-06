@@ -22,7 +22,7 @@ public class TopologicalSorting {
         Stack<Integer> stack = new Stack<>();
         boolean[] visited = new boolean[graph.v];
 
-        for (int i = 0; i< graph.v; i++){
+          for (int i = 0; i< graph.v; i++){
             if (!visited[i])
             topologicalSortUtil(i, visited, stack);
         }

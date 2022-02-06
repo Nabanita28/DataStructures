@@ -61,8 +61,7 @@ public class NumberOfIslands {
 
             List<Island> neighbours = getNeighbours(current.x, current.y);
 
-            for (int i = 0; i < neighbours.size(); i++) {
-                Island next = neighbours.get(i);
+            for (Island next :  neighbours) {
 
                 if (!visited[next.x][next.y]) {
                     queue.add(next);

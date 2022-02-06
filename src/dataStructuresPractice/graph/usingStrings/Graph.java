@@ -1,46 +1,43 @@
 package dataStructuresPractice.graph.usingStrings;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Graph {
 
-    Map<String, ArrayList<Edge>> adjacents;
+    Map<String, ArrayList<Vertex>> adjacencyList;
 
     public Graph(){
-        adjacents = new HashMap<>();
+        adjacencyList = new HashMap<>();
     }
 
-    public static class Edge{
-        String source;
-        String destination;
+    public static class Vertex{
+        String city;
         int distance;
 
-        public Edge(String source, String destination, int distance){
-            this.source = source;
-            this.destination = destination;
+        public Vertex(String city, int distance){
+            this.city = city;
             this.distance = distance;
         }
     }
 
-    public Edge addEdge(String source, String destination, int distance){
-       Edge edge = new Edge(source, destination, distance);
-       if(adjacents.containsKey(source)){
-           adjacents.get(source).add(edge);
+    public Vertex addEdge(String source, String destination, int distance){
+        Vertex edge = new Vertex(destination, distance);
+       if(adjacencyList.containsKey(source)){
+           adjacencyList.get(source).add(edge);
        } else{
-           ArrayList<Edge> value = new ArrayList<>();
+           ArrayList<Vertex> value = new ArrayList<>();
            value.add(edge);
-           adjacents.put(source, value);
+           adjacencyList.put(source, value);
        }
        return edge;
     }
 
     public String printGraph(){
         StringBuilder output = new StringBuilder();
-        for(String city : adjacents.keySet()){
+        for(String city : adjacencyList.keySet()){
             output.append(city + ": ");
-            for(Edge edge : adjacents.get(city)){
-                output.append(edge.destination + " ");
+            for(Vertex currentVertex : adjacencyList.get(city)){
+                output.append(currentVertex.city + " ");
             }
             output.append("\n");
         }

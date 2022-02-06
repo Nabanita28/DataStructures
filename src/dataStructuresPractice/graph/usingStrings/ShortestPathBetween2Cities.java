@@ -6,7 +6,7 @@ public class ShortestPathBetween2Cities {
     public static void main(String[] args) {
         Graph googleMap = new Graph();
 
-        Graph.Edge start = googleMap.addEdge("Delhi", "Bombay", 10);
+        googleMap.addEdge("Delhi", "Bombay", 10);
         googleMap.addEdge("Delhi", "Agartala", 10);
         googleMap.addEdge("Bombay", "Hyderabad", 10);
         googleMap.addEdge("Hyderabad", "Bangalore", 10);
@@ -18,7 +18,7 @@ public class ShortestPathBetween2Cities {
         googleMap.addEdge("Delhi", "Chandigarh", 10);
         googleMap.addEdge("Chandigarh", "Cochin", 10);
         googleMap.addEdge("Cochin", "Bangalore", 10);
-        Graph.Edge end = googleMap.addEdge("Bangalore", "Hyderabad", 10);
+        googleMap.addEdge("Bangalore", "Hyderabad", 10);
 
         System.out.println(googleMap.printGraph());
         System.out.println("BFS : ");
@@ -27,31 +27,38 @@ public class ShortestPathBetween2Cities {
         System.out.println("DFS : ");
         dfs(googleMap, "Delhi");
         System.out.println();
-        System.out.println("ShortestDistance between Delhi & Hyderabad = " + findShortestDistanceBetweenTwoCities(googleMap, "Delhi", "Hyderabad"));
+        System.out.println("ShortestDistance between Delhi & Hyderabad = " + findShortestDistanceBetweenTwoCities(googleMap, "Delhi", "Bangalore"));
     }
 
-    private static int findShortestDistanceBetweenTwoCities(Graph googleMap, String start, String end) {
+    static class Pair{
+       String city;
+       int distanceFromSource;
 
-        Queue<String> queue = new LinkedList<>();
+        public Pair(String city, int distanceFromSource){
+            this.city = city;
+            this.distanceFromSource = distanceFromSource;
+        }
+    }
+
+    private static int findShortestDistanceBetweenTwoCities(Graph googleMap, String startCity, String endCity) {
+
+        Queue<Pair> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
-        Map<String, Integer> map = new HashMap<>();
-        map.put(start, 0);
-        queue.add(start);
-        isVisited.add(start);
+        queue.add(new Pair(startCity, 0));
+        isVisited.add(startCity);
 
         while(!queue.isEmpty()){
-            String currentCity = queue.remove();
-            if(currentCity.equals(end)){
-                return map.get(currentCity);
+            Pair currentPair = queue.remove();
+            if(currentPair.city.equals(endCity)){
+                return currentPair.distanceFromSource;
             }
-            List<Graph.Edge> neighbours = googleMap.adjacents.get(currentCity);
+            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentPair.city);
 
             if(neighbours != null){
-                for(Graph.Edge edge : neighbours){
-                    if(!isVisited.contains(edge.destination)){
-                        map.put(edge.destination, map.get(currentCity)+10);
-                        queue.add(edge.destination);
-                        isVisited.add(edge.destination);
+                for(Graph.Vertex nextVertex : neighbours){
+                    if(!isVisited.contains(nextVertex.city)){
+                        queue.add(new Pair(nextVertex.city, currentPair.distanceFromSource + 10));
+                        isVisited.add(nextVertex.city);
                     }
                 }
             }
@@ -70,12 +77,12 @@ public class ShortestPathBetween2Cities {
             String currentCity = queue.remove();
 
             System.out.print(currentCity + " ");
-            List<Graph.Edge> neighbours = googleMap.adjacents.get(currentCity);
+            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
             if(neighbours != null){
-                for(Graph.Edge edge : googleMap.adjacents.get(currentCity)){
-                    if(!isVisited.contains(edge.destination)){
-                        queue.add(edge.destination);
-                        isVisited.add((edge.destination));
+                for(Graph.Vertex curVertex : googleMap.adjacencyList.get(currentCity)){
+                    if(!isVisited.contains(curVertex.city)){
+                        queue.add(curVertex.city);
+                        isVisited.add((curVertex.city));
                     }
                 }
             }
@@ -93,13 +100,13 @@ public class ShortestPathBetween2Cities {
 
             System.out.print(currentCity + " ");
 
-            List<Graph.Edge> neighbours = googleMap.adjacents.get(currentCity);
+            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
 
             if(neighbours != null){
-                for(Graph.Edge edge : neighbours){
-                    if(!isVisited.contains(edge.destination)){
-                        stack.push(edge.destination);
-                        isVisited.add(edge.destination);
+                for(Graph.Vertex curVertex : neighbours){
+                    if(!isVisited.contains(curVertex.city)){
+                        stack.push(curVertex.city);
+                        isVisited.add(curVertex.city);
                     }
                 }
             }

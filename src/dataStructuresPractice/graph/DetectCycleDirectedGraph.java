@@ -22,18 +22,20 @@ public class DetectCycleDirectedGraph {
         boolean[] recStack = new boolean[graph.v];
         boolean isCyclic = false;
         for (int i=0; i<graph.v; i++){
-            isCyclic = isCyclicUtil(i, visited, recStack);
+            if(!visited[i]){
+                isCyclic = isCyclicUtil(i, visited, recStack);
+                if(isCyclic){ // we already found a cycle with i vertex
+                    return true;
+                }
+            }
         }
         return isCyclic;
     }
 
     private static boolean isCyclicUtil(int i, boolean[] visited, boolean[] recStack) {
 // If a vertex is reached that is already in the recursion stack, then there is a cycle in the tree. 
-        if (visited[i])
-            return true;
-
         if (recStack[i])
-            return false;
+            return true;
 
         visited[i] = true;
         recStack[i] = true;
@@ -41,8 +43,9 @@ public class DetectCycleDirectedGraph {
         List<Integer> adjacentVertices = graph.adj.get(i);
 
         for (Integer vertex : adjacentVertices){
-            if (isCyclicUtil(vertex, visited, recStack)){
-                return true;
+                if (isCyclicUtil(vertex, visited, recStack)){
+                    return true;
+                
             }
         }
 
