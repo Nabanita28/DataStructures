@@ -22,9 +22,9 @@ public class BinaryTreeToDoublyLinkedList {
         tree.root.right.left = new TreeNode(36);
 
         System.out.println("Binary Tree To Doubly Linked List");
-        //binaryToDoublyLinkedList(tree.root);
-        TreeNode node = BSTtoCircularDLL(tree.root);
-        print(node);
+        binaryToDoublyLinkedList(tree.root);
+        //TreeNode node = BSTtoCircularDLL(tree.root);
+        print();
     }
 
     private static TreeNode BSTtoCircularDLL(TreeNode root) {

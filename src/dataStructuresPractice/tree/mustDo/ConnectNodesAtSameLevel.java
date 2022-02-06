@@ -15,8 +15,8 @@ public class ConnectNodesAtSameLevel {
         root.right = new TreeNode(2);
         root.left.left = new TreeNode(3);
         root.right.right = new TreeNode(90);
-        //connect(root);
-        fillNextSibling(root);
+        connect(root);
+        //fillNextSibling(root);
         System.out.println(root.left.nextRight.key);
         System.out.print("nextRight of node 3 is ");
         System.out.print(root.left.left.nextRight != null ?
