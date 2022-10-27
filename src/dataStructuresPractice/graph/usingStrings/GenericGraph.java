@@ -2,11 +2,11 @@ package dataStructuresPractice.graph.usingStrings;
 
 import java.util.*;
 
-public class Graph {
+public class GenericGraph {
 
     Map<String, ArrayList<Vertex>> adjacencyList;
 
-    public Graph(){
+    public GenericGraph(){
         adjacencyList = new HashMap<>();
     }
 

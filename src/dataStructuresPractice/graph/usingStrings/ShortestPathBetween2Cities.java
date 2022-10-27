@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ShortestPathBetween2Cities {
     public static void main(String[] args) {
-        Graph googleMap = new Graph();
+        GenericGraph googleMap = new GenericGraph();
 
         googleMap.addEdge("Delhi", "Bombay", 10);
         googleMap.addEdge("Delhi", "Agartala", 10);
@@ -40,7 +40,7 @@ public class ShortestPathBetween2Cities {
         }
     }
 
-    private static int findShortestDistanceBetweenTwoCities(Graph googleMap, String startCity, String endCity) {
+    private static int findShortestDistanceBetweenTwoCities(GenericGraph googleMap, String startCity, String endCity) {
 
         Queue<Pair> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
@@ -52,10 +52,10 @@ public class ShortestPathBetween2Cities {
             if(currentPair.city.equals(endCity)){
                 return currentPair.distanceFromSource;
             }
-            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentPair.city);
+            List<GenericGraph.Vertex> neighbours = googleMap.adjacencyList.get(currentPair.city);
 
             if(neighbours != null){
-                for(Graph.Vertex nextVertex : neighbours){
+                for(GenericGraph.Vertex nextVertex : neighbours){
                     if(!isVisited.contains(nextVertex.city)){
                         queue.add(new Pair(nextVertex.city, currentPair.distanceFromSource + 10));
                         isVisited.add(nextVertex.city);
@@ -66,7 +66,7 @@ public class ShortestPathBetween2Cities {
         return -1;
     }
 
-    public static void bfs(Graph googleMap, String start){
+    public static void bfs(GenericGraph googleMap, String start){
         Queue<String> queue = new LinkedList<>();
         Set<String> isVisited = new HashSet<>();
 
@@ -77,9 +77,9 @@ public class ShortestPathBetween2Cities {
             String currentCity = queue.remove();
 
             System.out.print(currentCity + " ");
-            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
+            List<GenericGraph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
             if(neighbours != null){
-                for(Graph.Vertex curVertex : googleMap.adjacencyList.get(currentCity)){
+                for(GenericGraph.Vertex curVertex : googleMap.adjacencyList.get(currentCity)){
                     if(!isVisited.contains(curVertex.city)){
                         queue.add(curVertex.city);
                         isVisited.add((curVertex.city));
@@ -89,7 +89,7 @@ public class ShortestPathBetween2Cities {
         }
     }
 
-    public static void dfs(Graph googleMap, String start){
+    public static void dfs(GenericGraph googleMap, String start){
         Stack<String> stack = new Stack<>();
         Set<String> isVisited = new HashSet<>();
         stack.push(start);
@@ -100,10 +100,10 @@ public class ShortestPathBetween2Cities {
 
             System.out.print(currentCity + " ");
 
-            List<Graph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
+            List<GenericGraph.Vertex> neighbours = googleMap.adjacencyList.get(currentCity);
 
             if(neighbours != null){
-                for(Graph.Vertex curVertex : neighbours){
+                for(GenericGraph.Vertex curVertex : neighbours){
                     if(!isVisited.contains(curVertex.city)){
                         stack.push(curVertex.city);
                         isVisited.add(curVertex.city);
